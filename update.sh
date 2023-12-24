@@ -2,7 +2,7 @@
   # * Al bifurcar este repositorio, dejen los créditos a todos los creadores de cada código por favor. ♥
 #!/data/data/com.termux/files/usr/bin/bash 
 BOT_DIR="KatashiBot-MD"  
-BOT_REPO="https://github.com/Brashkie/$BOT_DIR"
+BOT_REPO="https://github.com/Brashkie//BrashkieBot-Hepein/$BOT_DIR"
 DB_FILE="database.json"
  
 GREEN='\033[32m'
