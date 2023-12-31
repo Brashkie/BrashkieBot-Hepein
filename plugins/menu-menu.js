@@ -82,22 +82,22 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
+let menu = `╭═══〘卐 _Hepein bot MD_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
 ┃☭│ 
-┃☭│ _ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ 🥷🏻_
+┃☭│ _Brashkie Dios 🥷🏻_
 ┃☭│ _ɪᴢɪ_ 𝅙
 ┃☭│ シWɪʟsᴏɴシ︎
 ┃☭│
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│ᴋᴀᴛᴀsʜɪ ʙᴏᴛ x ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ
+┃☭│Hepein ʙᴏᴛ x Brashkie Dios
 ┃☭│ 
 ┃☭╰───────────────
 ╰═════════════════⊷
 
-╭════〘卐 _INFO KATASHI BOT_ 卐〙════⊷❍
+╭════〘卐 _INFO HepeinBot BOT_ 卐〙════⊷❍
 ┃
 ┃☭│ ᩭ✎ _Registrados »_ ${rtotalreg}/${totalreg}
 ┃☭│ ᩭ✎ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
