@@ -3,9 +3,6 @@
 
 `Texto Parpadeante`
 
-O
-
-`markdown
 <span style="animation: blink 1s infinite;">Texto Parpadeante</span>
 
 <p align="center"> 
