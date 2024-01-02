@@ -12,7 +12,7 @@
 
 <p align="center">
 <a href="#"><img title="HepeinBot" src="https://img.shields.io/badge/SI TE GUSTA ESTE REPOSITORIO DALE 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
-<img src="https://i.pinimg.com/originals/d4/3c/90/d43c902873d4db8c85974dfd0798030b.gif" height="28px">
+</img>
 </p>  
 
 
