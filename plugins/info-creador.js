@@ -13,7 +13,7 @@ const cat = `
 │ シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎
 │ *wa.me/5492964650915*
 │
-│*GRUPO OFICIAL DE KATASHIBOT*
+│*GRUPO OFICIAL DE BrashkieBot*
 │*https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW*
 │
 │𝓑𝓻𝓪𝓼𝓱𝓴𝓲𝓮 𝓓𝓲𝓸𝓼 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
