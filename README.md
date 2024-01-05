@@ -20,3 +20,6 @@
 <a href="#"><img title="HepeinBot" src="https://img.shields.io/badge/LEA TODO LAS INDICACIONES-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge"></a> 
 <a href="#"><img title="HepeinBot" src="https://img.shields.io/badge/COMPATIBLE CON LA VERSIÓN MULTI DISPOSITIVOS DE WHATSAPP-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge"></a>
 </p>
+
+### Cuentas Oficiales:
+> Al acceder a la plataforma, obtendrás acceso a todos los enlaces oficiales de Katashi Fukushima. Además, te mantendremos informado con boletines y mensajes exclusivos sobre las últimas novedades. La página se actualiza constantemente para ofrecerte la información más relevante. ¡No te pierdas ninguna actualización y únete a nuestro canal ahora mismo!
