@@ -131,9 +131,9 @@ let menu = `╭═══〘卐 _Hepein bot MD_ 卐〙═══⊷❍
 
 ${readMore}
 
-╭═══〘卐 _I N F O - K A T A S H I_ 卐〙═══⊷❍
+╭═══〘卐 _I N F O - B R A S H K I E_ 卐〙═══⊷❍
 ┃☭╭──────────────
-┃☭│ _${usedPrefix}cuentaskatashi | cuentaskb_
+┃☭│ _${usedPrefix}cuentasbrashkie | cuentaskb_
 ┃☭│ _${usedPrefix}gruposkb | grupos | groupkb_
 ┃☭│ _${usedPrefix}donar | donate_
 ┃☭│ _${usedPrefix}listagrupos | grouplist_
@@ -147,7 +147,7 @@ ${readMore}
 ┃☭╰───────────────
 ╰═════════════════⊷
 
-╭═══〘卐 _SUB BOT KATASHI_ 卐〙═══⊷❍
+╭═══〘卐 _SUB BOT HEPEIN_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _${usedPrefix}serbot | jadibot_
 ┃☭│ _${usedPrefix}bots | listjadibots_
@@ -227,7 +227,7 @@ ${readMore}
 ╰═════════════════⊷
 
 ╭════〘卐 AJUSTES EN CHATS/GRUPOS 卐〙════⊷❍
-│ _Puedes mejorar tu grupo con Katashi bot_
+│ _Puedes mejorar tu grupo con Hepein bot_
 ┃☭│ _${usedPrefix}on *:* off *bienvenida | welcome*_
 ┃☭│ _${usedPrefix}on *:* off *avisos | detect*_
 ┃☭│ _${usedPrefix}on *:* off *autonivel | autolevelup*_
