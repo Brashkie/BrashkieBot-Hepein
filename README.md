@@ -26,7 +26,7 @@
 
 
 -----
-### 🌟 (OPCIÓN 1) INSTALACIÓN AUTOMÁTICA POR TERMUX 🫰
+### 🌟 INSTALACIÓN AUTOMÁTICA POR TERMUX 🫰
 ```bash
 termux-setup-storage
 ```
