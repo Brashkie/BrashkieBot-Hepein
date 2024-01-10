@@ -82,7 +82,7 @@ let tex = `╭━━〔 *${wm}* 〕━━⬣
 ┃ ✪ *ROL*
 ┃ ➥ ${role}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ ✪ *GATACOINS*
+┃ ✪ *BRASCOINS*
 ┃ ➥ *${money}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ ✪ *TOKENS*
