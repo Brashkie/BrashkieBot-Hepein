@@ -599,7 +599,7 @@ const cooldowns = Object.entries(inventory.cooldowns).map(([cd, { name, time }])
 *╭──━• MISIONES*
 *╭──━• MISSIONS*
 *│ ⛏️⚡ Minar EXP » ${new Date - user.lastmiming < 600000 ? '❌' : '✅'}*
-*│ ⛏️🐱 Minar KataCoins » ${new Date - user.lastcoins < 600000 ? '❌' : '✅'}*
+*│ ⛏️🐱 Minar BrasCoins » ${new Date - user.lastcoins < 600000 ? '❌' : '✅'}*
 *│ ⛏️💎 Minar Diamantes » ${new Date - user.lastdiamantes < 900000 ? '❌' : '✅'}* 
 *│ ⚗️ Cofre : Coffer » ${new Date - user.lastcofre < 86400000 ? '❌' : '✅'}* 
 *│ 🏹 Caza : Berburu » ${new Date - user.lastberburu < 2700000 ? '❌' : '✅'}* 
@@ -806,7 +806,7 @@ ${readMore}
 ┃ ╸╸╸╸╸╸╸╸╸╸╸╸╸╸╯
 ┃ ${rpgg.emoticon('exp')} *Exp » ${exp}*
 ┃ ${rpgg.emoticon('limit')} *Diamante : Diamond » ${dia}*
-┃ ${rpgg.emoticon('money')} *KataCoins: » ${money}*
+┃ ${rpgg.emoticon('money')} *BrasCoins: » ${money}*
 ┃ ${rpgg.emoticon('joincount')} *Token » ${token}*
 ┃ *${rpgshop.emoticon('emerald')} » ${member.emerald}*
 ┃ *${rpgshop.emoticon('berlian')} » ${member.berlian}*
@@ -1044,7 +1044,7 @@ _16.Top Caja para Mascota_ *${userspet.indexOf(m.sender) + 1}* _de_ *${userspet.
 *╭──━• MISIONES*
 *╭──━• MISSIONS*
 *│ ⛏️⚡ Minar EXP » ${new Date - user.lastmiming < 600000 ? '❌' : '✅'}*
-*│ ⛏️🐱 Minar KataCoins » ${new Date - user.lastcoins < 600000 ? '❌' : '✅'}*
+*│ ⛏️🐱 Minar BrasCoins » ${new Date - user.lastcoins < 600000 ? '❌' : '✅'}*
 *│ ⛏️💎 Minar Diamantes » ${new Date - user.lastdiamantes < 900000 ? '❌' : '✅'}* 
 *│ ⚗️ Cofre : Coffer » ${new Date - user.lastcofre < 86400000 ? '❌' : '✅'}* 
 *│ 🏹 Caza : Berburu » ${new Date - user.lastberburu < 2700000 ? '❌' : '✅'}* 
@@ -1166,7 +1166,7 @@ _16.Top Caja para Mascota_ *${userspet.indexOf(m.sender) + 1}* _de_ *${userspet.
 *│ ⛏️⚡ Minar EXP » ${new Date - user.lastmiming < 600000 ? '❌' : '✅'}*
 ${new Date - user.lastmiming < 600000 ? `${clockString(user.lastmiming + 600000 - new Date())}` : '*│* ✅ 𝗠𝗜𝗦𝗜𝗢𝗡 𝗬𝗔 𝗗𝗜𝗦𝗣𝗢𝗡𝗜𝗕𝗟𝗘'}
 *│┈┈┈┈┈┈┈┈┈┈┈┈*
-*│ ⛏️🐱 Minar KataCoins » ${new Date - user.lastcoins < 600000 ? '❌' : '✅'}*
+*│ ⛏️🐱 Minar BrasCoins » ${new Date - user.lastcoins < 600000 ? '❌' : '✅'}*
 ${new Date - user.lastcoins < 600000 ? `${clockString(user.lastcoins + 600000 - new Date())}` : '*│* ✅ 𝗠𝗜𝗦𝗜𝗢𝗡 𝗬𝗔 𝗗𝗜𝗦𝗣𝗢𝗡𝗜𝗕𝗟𝗘'}
 *│┈┈┈┈┈┈┈┈┈┈┈┈*
 *│ ⛏️💎 Minar Diamantes » ${new Date - user.lastdiamantes < 900000 ? '❌' : '✅'}* 
@@ -1304,7 +1304,7 @@ conn.sendFile(m.chat, imgr, 'gata.jpg', str, {quoted: fkontak})
 *│ ⛏️⚡ Minar EXP » ${new Date - user.lastmiming < 600000 ? '❌' : '✅'}*
 ${new Date - user.lastmiming < 600000 ? `${clockString(user.lastmiming + 600000 - new Date())}` : '*│* ✅ 𝗠𝗜𝗦𝗜𝗢𝗡 𝗬𝗔 𝗗𝗜𝗦𝗣𝗢𝗡𝗜𝗕𝗟𝗘'}
 *│┈┈┈┈┈┈┈┈┈┈┈┈*
-*│ ⛏️🐱 Minar KataCoins » ${new Date - user.lastcoins < 600000 ? '❌' : '✅'}*
+*│ ⛏️🐱 Minar BrasCoins » ${new Date - user.lastcoins < 600000 ? '❌' : '✅'}*
 ${new Date - user.lastcoins < 600000 ? `${clockString(user.lastcoins + 600000 - new Date())}` : '*│* ✅ 𝗠𝗜𝗦𝗜𝗢𝗡 𝗬𝗔 𝗗𝗜𝗦𝗣𝗢𝗡𝗜𝗕𝗟𝗘'}
 *│┈┈┈┈┈┈┈┈┈┈┈┈*
 *│ ⛏️💎 Minar Diamantes » ${new Date - user.lastdiamantes < 900000 ? '❌' : '✅'}* 
