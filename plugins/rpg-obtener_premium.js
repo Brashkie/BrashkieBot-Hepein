@@ -34,8 +34,8 @@ else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
 'https://logowiki.net/wp-content/uploads/imgp/Premium-Logo-1-5365.jpg', 
-'https://i.imgur.com/oUAGYc2.jpg',
-'https://i.imgur.com/i0pccuo.jpg'];
+'https://i.imgur.com/MUK0Qjy.jpg',
+'https://i.imgur.com/dhuCQHt.jpg'];
 //let imgpre = 'https://logowiki.net/wp-content/uploads/imgp/Premium-Logo-1-5365.jpg' 
 
 await conn.reply(m.chat, `${eg}*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
@@ -84,8 +84,8 @@ else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
 'https://logowiki.net/wp-content/uploads/imgp/Premium-Logo-1-5365.jpg', 
-'https://i.imgur.com/oUAGYc2.jpg',
-'https://i.imgur.com/i0pccuo.jpg'];
+'https://i.imgur.com/MUK0Qjy.jpg',
+'https://i.imgur.com/dhuCQHt.jpg'];
 
 await conn.reply(m.chat, `${eg}*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
@@ -132,8 +132,8 @@ else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
 'https://logowiki.net/wp-content/uploads/imgp/Premium-Logo-1-5365.jpg', 
-'https://i.imgur.com/oUAGYc2.jpg',
-'https://i.imgur.com/i0pccuo.jpg'];
+'https://i.imgur.com/MUK0Qjy.jpg',
+'https://i.imgur.com/dhuCQHt.jpg'];
 
 await conn.reply(m.chat, `${eg}*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
@@ -180,8 +180,8 @@ else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
 'https://logowiki.net/wp-content/uploads/imgp/Premium-Logo-1-5365.jpg', 
-'https://i.imgur.com/oUAGYc2.jpg',
-'https://i.imgur.com/i0pccuo.jpg'];
+'https://i.imgur.com/MUK0Qjy.jpg',
+'https://i.imgur.com/dhuCQHt.jpg'];
 
 await conn.reply(m.chat, `${eg}*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
@@ -228,8 +228,8 @@ else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
 'https://logowiki.net/wp-content/uploads/imgp/Premium-Logo-1-5365.jpg', 
-'https://i.imgur.com/oUAGYc2.jpg',
-'https://i.imgur.com/i0pccuo.jpg'];
+'https://i.imgur.com/MUK0Qjy.jpg',
+'https://i.imgur.com/dhuCQHt.jpg'];
 
 await conn.reply(m.chat, `${eg}*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
@@ -263,8 +263,8 @@ else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
 'https://logowiki.net/wp-content/uploads/imgp/Premium-Logo-1-5365.jpg', 
-'https://i.imgur.com/oUAGYc2.jpg',
-'https://i.imgur.com/i0pccuo.jpg'];
+'https://i.imgur.com/MUK0Qjy.jpg',
+'https://i.imgur.com/dhuCQHt.jpg'];
 
 await conn.reply(m.chat, `${eg}*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
@@ -298,8 +298,8 @@ else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
 'https://logowiki.net/wp-content/uploads/imgp/Premium-Logo-1-5365.jpg', 
-'https://i.imgur.com/oUAGYc2.jpg',
-'https://i.imgur.com/i0pccuo.jpg'];
+'https://i.imgur.com/MUK0Qjy.jpg',
+'https://i.imgur.com/dhuCQHt.jpg'];
 
 await conn.reply(m.chat, `${eg}*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
@@ -333,8 +333,8 @@ else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
 'https://logowiki.net/wp-content/uploads/imgp/Premium-Logo-1-5365.jpg', 
-'https://i.imgur.com/oUAGYc2.jpg',
-'https://i.imgur.com/i0pccuo.jpg'];
+'https://i.imgur.com/MUK0Qjy.jpg',
+'https://i.imgur.com/dhuCQHt.jpg'];
 
 await conn.reply(m.chat, `${eg}*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃🎟️ 𝙐𝙎𝙏𝙀𝘿 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝙋𝙍𝙀𝙈𝙄𝙐𝙈!!!*
