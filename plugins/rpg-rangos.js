@@ -61,7 +61,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
   
   
 //let name = await conn.getName(m.sender)
-let pp = 'https://telegra.ph/file/a848eeb479e662f2e3fab.mp4'
+let pp = 'https://telegra.ph/file/578261f3a5c1820d753c0.mp4'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let mentionedJid = [who]
 let username = conn.getName(who)
@@ -118,11 +118,11 @@ ${role}
 *SUPER PRO IV* 🎩
 *SUPER PRO V* 🎩
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*PRO EN KATASHIBOT I* 😼
-*PRO EN KATASHIBOT II* 😼
-*PRO EN KATASHIBOT III* 😼
-*PRO EN KATASHIBOT IV* 😼
-*PRO EN KATASHIBOT V* 😼
+*PRO EN BRASHKIEBOT I* 😼
+*PRO EN BRASHKIEBOT II* 😼
+*PRO EN BRASHKIEBOT III* 😼
+*PRO EN BRASHKIEBOT IV* 😼
+*PRO EN BRASHKIEBOT V* 😼
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 *DIAMANTE I* 💎
 *DIAMANTE II* 💎
