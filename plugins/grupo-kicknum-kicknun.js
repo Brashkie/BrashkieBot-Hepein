@@ -22,7 +22,7 @@ conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()}𝙄𝙉𝙄𝘾𝙄𝘼𝙉�
 let ownerGroup = m.chat.split`-`[0] + '@s.whatsapp.net'
 let users = participants.map(u => u.id).filter(v => v !== conn.user.jid && v.startsWith(lol || lol))
 for (let user of users) {
-let error = `@${user.split("@")[0]} 𝙔𝘼 𝙃𝘼 𝙎𝙄𝘿𝙊 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝘿𝙊 𝙊 𝙃𝘼 𝘼𝘽𝘼𝙉𝘿𝙊𝙉𝘼𝘿𝙊 𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 :v`    
+let error = `@${user.split("@")[0]} 𝙃𝘼 𝙎𝙄𝘿𝙊 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝘿𝙊 𝙊 𝙃𝘼 𝘼𝘽𝘼𝙉𝘿𝙊𝙉𝘼𝘿𝙊 𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 :v`    
 if (user !== ownerGroup + '@s.whatsapp.net' && user !== global.conn.user.jid && user !== global.owner + '@s.whatsapp.net' && user.startsWith(lol || lol) && user !== isSuperAdmin && isBotAdmin && bot.restrict) { 
 await delay(2000)    
 let responseb = await conn.groupParticipantsUpdate(m.chat, [user], 'remove')
