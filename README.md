@@ -29,7 +29,7 @@
 </a>
 
 -----
-### 🌟 INSTALACIÓN AUTOMÁTICA POR TERMUX 🫰
+### 🌟 INSTALACIÓN AUTOMÁTICA POR TERMUX O EN PHONE🫰
 ```bash
 termux-setup-storage
 ```
