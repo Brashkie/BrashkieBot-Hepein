@@ -6,6 +6,8 @@ conn.reply(m.chat,`╭━━━━━[ 𝙍𝙀𝙏𝙊 😏 ]━━━━⬣\n*
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', `${usedPrefix}menu`]
 ], m,)*/
 
+let pp ='https://telegra.ph/file/49e9327b85f47b7a9f523.jpg'
+
 handler.help = ['reto']
 handler.tags = ['fun']
 handler.command = /^reto/i
