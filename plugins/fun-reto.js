@@ -1,19 +1,30 @@
-let handler  = async (m, { conn, usedPrefix, command }) => {
-conn.reply(m.chat,`╭━━━━━[ 𝙍𝙀𝙏𝙊 😏 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`, m)}
-/*conn.sendHydrated(m.chat, `╭━━━━━[ 𝙍𝙀𝙏𝙊 😏 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🧐', `${usedPrefix}reto`],
-['𝙏𝙤𝙥𝙨 | 𝙍𝙖𝙣𝙠𝙞𝙣𝙜 🏆', `${usedPrefix}top`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', `${usedPrefix}menu`]
-], m,)*/
+import translate from '@vitalets/google-translate-api'
+import fetch from 'node-fetch'
+import axios from "axios"
 
-let pp ='https://telegra.ph/file/49e9327b85f47b7a9f523.jpg'
-
+let handler = async (m, { conn, usedPrefix, command }) => {
+let frep = { contextInfo: { externalAdReply: {title: wm, body: author, sourceUrl: redesMenu.getRandom(), thumbnail: await(await fetch(gataMenu.getRandom())).buffer() }}}
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+try { 
+if (command == 'reto' || command == 'challenge') { 
+let pp = 'https://telegra.ph/file/49e9327b85f47b7a9f523.jpg'
+let list = global.motivation 
+let contenido = list[Math.floor(Math.random() * list.length)]
+let result = await translate(`${contenido}`, { to: lenguajeGB.lenguaje(), autoCorrect: true })
+let texto = `╭━━━━━[ 𝙍𝙀𝙏𝙊 😏 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`
+conn.sendFile(m.chat, pp, 'error.png', texto.trim(), fkontak)}
+} catch (e) {
+await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
+console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+console.log(e)}  
+}
+  
 handler.help = ['reto']
 handler.tags = ['fun']
 handler.command = /^reto/i
 handler.fail = null
 export default handler
-
+  
 function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
