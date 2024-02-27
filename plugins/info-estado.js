@@ -56,7 +56,7 @@ conn.sendHydrated(m.chat, estado, `𝓑𝓻𝓪𝓼𝓱𝓴𝓲𝓮 𝘿𝙄𝙊
 }
 handler.help = ['estado']
 handler.tags = ['main']
-handler.command = /^(estado|status|estate|state|heygata|stado|stats|botstat(us)?)$/i
+handler.command = /^(estado|status|estate|state|heybras|stado|stats|botstat(us)?)$/i
 export default handler
 
 function clockString(ms) {
