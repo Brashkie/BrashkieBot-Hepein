@@ -133,12 +133,12 @@ ${readMore}
 
 ╭═══〘☬ _I N F O - B R A S H K I E_ ☬〙═══⊷❍
 ┃☭╭──────────────
-┃☭│ _${usedPrefix}cuentasbrashkie | cuentaskb_
-┃☭│ _${usedPrefix}gruposkb | grupos | groupkb_
+┃☭│ _${usedPrefix}cuentabrashkiebot | cuentasbb_
+┃☭│ _${usedPrefix}gruposbb | grupos | groupbb_
 ┃☭│ _${usedPrefix}donar | donate_
 ┃☭│ _${usedPrefix}listagrupos | grouplist_
-┃☭│ _${usedPrefix}estado | heykata | status_
-┃☭│ _${usedPrefix}infokata | infobot_
+┃☭│ _${usedPrefix}estado | heybras | status_
+┃☭│ _${usedPrefix}infobras | infobot_
 ┃☭│ _${usedPrefix}instalarbot | installbot_
 ┃☭│ _${usedPrefix}creador | owner_      
 ┃☭│ _${usedPrefix}velocidad | ping_      
