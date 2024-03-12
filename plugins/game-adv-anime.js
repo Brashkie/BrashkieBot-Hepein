@@ -26,7 +26,7 @@ if (conn.tekateki[id]) await conn.reply(m.chat, `Se acabó\n*Respuesta:* ${json.
 delete conn.tekateki[id]
 }, timeout)
 ]}
-handler.help = ['peliculas']
+handler.help = ['animes']
 handler.tags = ['game']
-handler.command = /^(advpe|adv|peliculas|pelicula)$/i
+handler.command = /^(advotak|advotakus|animes|otak)$/i
 export default handler
