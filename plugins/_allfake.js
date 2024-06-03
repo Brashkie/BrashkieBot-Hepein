@@ -16,7 +16,7 @@ let b = a[Math.floor(Math.random() * a.length)]
 let sap = ['Hai', 'Ohayo', 'Kyaa', 'Halo', 'Nyann']
 let sgh = md
 let sgc = nnn
-let gata = 'https://i.imgur.com/dhuCQHt.jpg'
+let gata = 'https://i.imgur.com/eeoXqz5.jpg'
 //let logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg'
 let pp = await conn.profilePictureUrl(who).catch(_ => gata)
 //pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './src/grupos.jpg' 
