@@ -13,6 +13,6 @@ await m.reply(`🌟 *Hola ${username}, bienvenido a HepeinBot* 🥷🏻
 📌 *Cualquier duda o sugerencia puede contactar a mi creador:* 🎉
 📩 wa.me/51918340705 📭
 🙏❣️ *Si desea apoyar el proyecto Brashkie Bot puede donar a esta cuenta por PayPal* ✅📈
-🌟 https://www.paypal.com/paypalme/KatashiF ✨`) 
+🌟 https://paypal.me/BrashkieBot ✨`) 
 user.pc = new Date * 1
 }
