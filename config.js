@@ -136,7 +136,7 @@ global.nnnttt2 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //Grupo 7 CO
 global.nnnttt3 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //Grupo 8 COL - GRUPO KATASHIBOT
 global.nnnttt4 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //Grupo 9 COL - GRUPO KATASHIBOT
 global.nnnttt5 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //A.T.M.M - GRUPO KATASHIBOT
-global.paypal = 'https://paypal.me/KatashiF'
+global.paypal = 'https://paypal.me/BrashkieBot'
 global.asistencia = 'Wa.me/51918340705' //Dudas? escríbeme...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
