@@ -283,6 +283,55 @@ let top = `*_🌟TOP PERSONAS FAMOSAS EN EL GRUPO🌟_*
 *_9.- 🤩 ${user(i)}_* 🤩
 *_10.- 🛫 ${user(j)}_* 🛫`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
+
+if (command == 'topcallados') {
+let top = `*_😑TOP PERSONAS CALLADOS EN EL GRUPO😶_* 
+    
+*_1.- 👉 ${user(a)}_* 🤐
+*_2.- 👉 ${user(b)}_* 🤐
+*_3.- 👉 ${user(c)}_* 🤐
+*_4.- 👉 ${user(d)}_* 🤐
+*_5.- 👉 ${user(e)}_* 🤐
+*_6.- 👉 ${user(f)}_* 🤐
+*_7.- 👉 ${user(g)}_* 🤐
+*_8.- 👉 ${user(h)}_* 🤐
+*_9.- 👉 ${user(i)}_* 🤐
+*_10.- 👉 ${user(j)}_* 🤐`
+m.reply(top, null, { mentions: conn.parseMention(top) })}
+
+if (command == 'tophacker') {
+let top = `*_🌐TOP PERSONAS HACKER DEL GRUPO SON☠️_* 
+    
+*_1.- 💀 ${user(a)}_* 🧑‍💻
+Sabe hackear cuenta bancaria :'v
+
+*_2.- 💀 ${user(b)}_* 🧑‍💻
+Nos robara informacion de nosotros :'v
+
+*_3.- 💀 ${user(c)}_* 🧑‍💻
+Puede robar nuestra cuenta de google :'v
+
+*_4.- 💀 ${user(d)}_* 🧑‍💻
+Sabe donde vivimos :'v
+
+*_5.- 💀 ${user(e)}_* 🧑‍💻
+Podria robar grupos de Whatsapp :'v
+
+*_6.- 💀 ${user(f)}_* 🧑‍💻
+Trabaja con la mafia :'v
+
+*_7.- 💀 ${user(g)}_* 🧑‍💻
+Tiene armas ilegales :'v
+
+*_8.- 💀 ${user(h)}_* 🧑‍💻
+Podria robar informacion a EE.UU :'v
+
+*_9.- 💀 ${user(i)}_* 🧑‍💻
+Vende drogas ilegales :'v
+
+*_10.- 💀 ${user(j)}_* 🧑‍💻
+Crea programas pirateados :'v`
+m.reply(top, null, { mentions: conn.parseMention(top) })}
    
 if (command == 'topparejas') {
 let top = `*_😍 Las 5 maravillosas parejas del grupo 😍_*
@@ -323,7 +372,7 @@ Genial! 💝, están de Luna de miel 🥵✨❤️‍🔥`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
   
 }
-handler.help = handler.command = ['topgays', 'topotakus', 'topintegrantes', 'topintegrante', 'toplagrasa', 'topgrasa', 'toppanafrescos', 'toppanafresco', 'topshiposters', 'topshipost', 'toppajer@s', 'toplindos', 'toplind@s', 'topput@s', 'topfamosos', 'topfamos@s', 'topparejas', 'top5parejas' ]
+handler.help = handler.command = ['topgays', 'topotakus', 'topintegrantes', 'topintegrante', 'toplagrasa', 'topgrasa', 'toppanafrescos', 'toppanafresco', 'topshiposters', 'topshipost', 'toppajer@s', 'toplindos', 'toplind@s', 'topput@s', 'topfamosos', 'topfamos@s', 'topparejas', 'top5parejas', 'tophacker', 'topcallados' ]
 handler.tags = ['games']
 handler.group = true
 export default handler  
