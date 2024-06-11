@@ -124,7 +124,7 @@ let menu = `╭═══〘𖣐 _Hepein Bot_ 𖣐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _Experiencia ➟_ ${exp} ×͜×
 ┃☭│ _Diamantes ➟_ ${limit} 💎
-┃☭│ _KataCoins ➟_ ${money} ⫹⫺
+┃☭│ _BrasCoins ➟_ ${money} ⫹⫺
 ┃☭│ _Tokens ➟_ ${joincount} ✧
 ┃☭╰───────────────
 ╰═════════════════⊷
@@ -184,6 +184,9 @@ ${readMore}
 ┃☭│ _${usedPrefix}deltictactoe | delttt_
 ┃☭│ _${usedPrefix}topgays_
 ┃☭│ _${usedPrefix}topotakus_
+┃☭│ _${usedPrefix}topcallados_
+┃☭│ _${usedPrefix}tophacker_
+┃☭│ _${usedPrefix}topinfiel_
 ┃☭│ _${usedPrefix}toppajer@s_
 ┃☭│ _${usedPrefix}topput@s_ 
 ┃☭│ _${usedPrefix}topintegrantes | topintegrante_
@@ -214,6 +217,8 @@ ${readMore}
 ┃☭│ _${usedPrefix}verdad_
 ┃☭│ _${usedPrefix}reto_
 ┃☭│ _${usedPrefix}juegos_
+┃☭│ _${usedPrefix}edufrase_
+┃☭│ _${usedPrefix}animes_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
