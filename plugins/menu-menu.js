@@ -598,6 +598,21 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
+╭════〘☬ _Anime_ ☬〙════⊷❍
+┃☭│*Comandos de reacciones de anime*
+┃☭│────────────────────❍
+┃☭│ _${usedPrefix}pat1 *@tag*_ = *acariciar*
+┃☭│ _${usedPrefix}slap1 *@tag*_ = *bofatear*
+┃☭│ _${usedPrefix}punch1 *@tag*_ = *golpear*
+┃☭│ _${usedPrefix}kiss1 *@tag*_ = *besar*
+┃☭│ _${usedPrefix}food *@tag*_ = *comer*
+┃☭│ _${usedPrefix}bite1 *@tag*_ = *morder*
+┃☭│ _${usedPrefix}poke1 *@tag*_ = *tocar*
+┃☭│ _${usedPrefix}hug1 *@tag*_ = *abrazar*
+┃☭│ _${usedPrefix}feed1 *@tag*_ = *alimetar*
+┃☭╰─────────────────❍
+╰══════════════════⊷❍
+
 ╭════〘☬ _Para Propietarios/Owners_ ☬〙════⊷❍
 ┃☭╭─────────────────────────❍
 ┃☭│ _${usedPrefix}join *enlace*_
