@@ -112,8 +112,8 @@ global.author = "✥𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗗𝗶𝗼𝘀✥"
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.vs = "1.5.0"
-global.vsJB = "2.6 (Beta)"
+global.vs = "1.4.9"
+global.vsJB = "2.5 (Beta)"
 
 global.gt = "☆ℍ𝕖𝕡𝕖𝕚𝕟𝔹𝕠𝕥☆"
 global.yt = "https://www.youtube.com/channel/UCKwgQ_LQgAlSmVrYHiHH_1Q"
