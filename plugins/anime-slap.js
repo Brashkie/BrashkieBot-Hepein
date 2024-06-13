@@ -1,3 +1,5 @@
+/*Fue creado por BrashkieBot*/
+
 import fs from 'fs'  
 import moment from 'moment-timezone'
 import fetch from 'node-fetch'
@@ -13,7 +15,12 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, participants, groupM
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let toUser = `${m.sender.split("@")[0]}`
     let menu = `@${toUser} le bofeteó a *@${who.split('@')[0]}*`
-    const vi = ['https://telegra.ph/file/c31d280f53a6002620c5d.mp4','https://telegra.ph/file/ca254155729831888befa.mp4','https://telegra.ph/file/c91ad7b4ec3ffb0b606c6.mp4']
+    const vi = ['https://telegra.ph/file/c31d280f53a6002620c5d.mp4',
+        'https://telegra.ph/file/ca254155729831888befa.mp4',
+        'https://telegra.ph/file/c91ad7b4ec3ffb0b606c6.mp4',
+        'https://telegra.ph/file/7c3a6e61782b369f535ef.mp4',
+        'https://telegra.ph/file/6cb16688b64e72452c5b8.mp4'
+    ]
     
     await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, who] })
 }
