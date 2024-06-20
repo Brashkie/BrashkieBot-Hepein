@@ -1,57 +1,54 @@
-import translate from '@vitalets/google-translate-api'
-import { Anime } from "@shineiichijo/marika"
+import translate from '@vitalets/google-translate-api';
+import {Anime} from '@shineiichijo/marika';
 const client = new Anime();
-let handler = async(m, { conn, text, usedPrefix }) => {
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝙐𝙉 𝘼𝙉𝙄𝙈𝙀\n𝙒𝙍𝙄𝙏𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀 𝙊𝙁 𝘼𝙉 𝘼𝙉𝙄𝙈𝙀`
-try {  
-let anime = await client.searchAnime(text)
-let result = anime.data[0];
-let resultes = await translate(`${result.background}`, { to: 'es', autoCorrect: true })   
-let resultes2 = await translate(`${result.synopsis}`, { to: 'es', autoCorrect: true })   
-let AnimeInfo = `
-𝙏𝙄𝙏𝙐𝙇𝙊 | 𝙏𝙄𝙏𝙇𝙀 
-❣ ${title}
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙀𝙋𝙄𝙎𝙊𝘿𝙄𝙊𝙎 | 𝙀𝙋𝙄𝙎𝙊𝘿𝙀𝙎
-❣ ${episodes}
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙏𝙍𝘼𝙉𝙎𝙈𝙄𝙏𝙄𝘿𝙊 𝙋𝙊𝙍 | 𝙏𝙍𝘼𝙉𝙎𝙈𝙄𝙏𝙏𝙀𝘿 𝘽𝙔
-❣ ${type}
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝘾𝙇𝘼𝙎𝙄𝙁𝙄𝘾𝘼𝘾𝙄𝙊𝙉 | 𝙍𝘼𝙏𝙄𝙉𝙂
-❣ ${rated}
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙋𝙐𝙉𝙏𝘼𝙅𝙀 | 𝙎𝘾𝙊𝙍𝙀
-❣ ${score}
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙈𝙄𝙀𝙈𝘽𝙍𝙊𝙎 | 𝙈𝙀𝙈𝘽𝙀𝙍𝙎
-❣ ${members}
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙎𝙄𝙉𝙊𝙋𝙎𝙄𝙎 𝙀𝙉𝙂𝙇𝙄𝙎𝙃
-❣ ${synopsis}
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙀𝙉𝙇𝘼𝘾𝙀 | 𝙐𝙍𝙇
-❣ ${url}`
-conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, m)
-let info = `💖 *Infórmate sobre las Novedades y recuerda tener la última versión.*\n\n💝 *Find out about what's new and remember to have the latest version.*
-  `
-/*conn.sendButton(m.chat, info, [
-['🔄 𝙎𝙞𝙜𝙪𝙞𝙚𝙣𝙩𝙚 | 𝙉𝙚𝙭𝙩', `${usedPrefix + command} ${text}`],
-['🔍 𝙋𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩 ', `#pinterest ${text}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']], m)*/
-/*.trim()
-  
-await conn.sendHydrated(m.chat, info, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
-['𝙈𝙚𝙣𝙪 𝘽𝙪𝙨𝙦𝙪𝙚𝙙𝙖𝙨 | 𝙎𝙚𝙖𝙧𝙘𝙝𝙚𝙨 🔎', '#buscarmenu'],
-['𝙈𝙚𝙣𝙪 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪 ✨', '.allmenu'],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
-], m,)  */
-} catch {
-throw `*[ ❗ ] ERROR, INTENTELO DE NUEVO*`  
+const handler = async (m, {conn, text, command, usedPrefix}) => {
+if (!text) return m.reply(`${lenguajeGB['smsAvisoMG']()} ${mid.smsMalused2}`);
+try {
+const anime = await client.searchAnime(text);
+const result = anime.data[0];
+const resultes = await translate(`${result.background}`, {to: 'es', autoCorrect: true});
+const resultes2 = await translate(`${result.synopsis}`, {to: 'es', autoCorrect: true});
+const AnimeInfo = ` ${mid.smsYT1}
+❣ ${result.title}
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈   
+ ${mid.buscador2}
+❣ ${result.episodes}
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
+ ${mid.buscador3}
+❣ ${result.source.toUpperCase()}
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
+ ${mid.buscador4}
+❣ ${result.aired.from}
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
+ ${mid.buscador5}
+❣ ${result.popularity}
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
+ ${mid.buscador6}
+❣ ${result.favorites}
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
+ ${mid.smsYT5}
+❣ ${result.duration}
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
+ ${mid.buscador7}
+❣ ${result.rating}
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
+ ${mid.buscador8}
+❣ ${result.trailer.url}
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
+ ${mid.smsYT4}
+❣ ${result.url}`;
+conn.sendButton(m.chat, AnimeInfo, null, result.images.jpg.image_url, [
+['𝗠𝗲𝗻𝘂 𝗕𝘂𝘀𝗾𝘂𝗲𝗱𝗮𝘀 | 𝗦𝗲𝗮𝗿𝗰𝗵𝗲𝘀', '#buscarmenu'],
+['𝗠𝗲𝗻𝘂 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 | 𝗙𝘂𝗹𝗹 𝗠𝗲𝗻𝘂', '.allmenu'],
+['𝗩𝗼𝗹𝘃𝗲𝗿 𝗮𝗹 𝗠𝗲𝗻𝘂 | 𝗕𝗮𝗰𝗸 𝘁𝗼 𝗠𝗲𝗻𝘂', '/menu']], null, [['𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺', ig]], m)
+//conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𖣐 𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲𝗕𝗼𝘁 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}})
+//conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, fkontak);
+} catch (e) {
+await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, fkontak, m)
+console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+console.log(e)
 }}
-handler.help = ['animeinfo <anime>']
-handler.tags = ['internet']
-handler.command = /^(animeinfo)$/i
-handler.exp = 50
-handler.level = 1
-export default handler
+handler.command = /^(anime|animeinfo)$/i;
+//handler.level = 2
+//handler.register = true
+export default handler;
