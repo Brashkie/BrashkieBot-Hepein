@@ -2,30 +2,28 @@ import axios from 'axios'
 import fetch from 'node-fetch'
 import cheerio from 'cheerio'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) throw `${lenguajeGB['smsAvisoMG']()}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙐𝙉 𝙀𝙉𝙇𝘼𝘾𝙀 𝙑𝘼𝙇𝙄𝘿𝙊 𝘿𝙀 𝙈𝙀𝘿𝙄𝘼𝙁𝙄𝙍𝙀.\n\n𝙀𝙉𝙏𝙀𝙍 𝘼 𝙑𝘼𝙇𝙄𝘿 𝙈𝙀𝘿𝙄𝘼𝙁𝙄𝙍𝙀 𝙇𝙄𝙉𝙆.`
+if (!args[0]) throw `${lenguajeGB['smsAvisoMG']()}${mid.smsFire}`
 try {  
 let res = await mediafireDl(args[0])
 let { name, size, date, mime, link } = res
 let caption = `${eg}
-┃ 𓃠 *${gt} ${vs}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ 💫 𝙉𝙊𝙈𝘽𝙍𝙀 | 𝙉𝘼𝙈𝙀
-┃ ${name}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ 💪 𝙋𝙀𝙎𝙊 |  𝙎𝙄𝙕𝙀
-┃ ${size}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ 🚀 𝙏𝙄𝙋𝙊 | 𝙏𝙔𝙋𝙀
-┃ ${mime}`.trim()
+> ┃ 𓃠 *${gt} ${vs}* 
+> ┃╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾
+> ┃ 💫 ${mid.name}
+> ┃ ${name}
+> ┃╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾
+> ┃ 💪 ${mid.smsYT11}
+> ┃ ${size}
+> ┃╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾
+> ┃ 🚀 ${mid.smsYT12}
+> ┃ ${mime}`.trim()
 conn.reply(m.chat, caption, m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲𝗕𝗼𝘁 | 𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗗𝗶𝗼𝘀',
-body: 'Super Bot WhatsApp',         
-previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://github.com/Brashkie/BrashkieBot-Hepein`}}})
-   await conn.sendFile(m.chat, link, name, '', m, null, { mimetype: mime, asDocument: true })
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: 'Mega Bot WhatsApp', previewType: 0, thumbnail: gataMenu, sourceUrl: md}}})
+await conn.sendFile(m.chat, link, name, '', m, null, { mimetype: mime, asDocument: true })
 } catch (e) {
-m.reply(`${fg}𝙑𝙐𝙀𝙇𝙑𝘼 𝘼 𝙄𝙉𝙏𝙀𝙉𝙏𝘼𝙍. 𝘿𝙀𝘽𝙀 𝘿𝙀 𝙎𝙀𝙍 𝙐𝙉 𝙀𝙉𝙇𝘼𝘾𝙀 𝙑𝘼𝙇𝙄𝘿𝙊 𝘿𝙀 𝙈𝙀𝘿𝙄𝘼𝙁𝙄𝙍𝙀.\n\n𝙋𝙇𝙀𝘼𝙎𝙀 𝙏𝙍𝙔 𝘼𝙂𝘼𝙄𝙉. 𝙈𝙐𝙎𝙏 𝘽𝙀 𝘼 𝙑𝘼𝙇𝙄𝘿 𝙈𝙀𝘿𝙄𝘼𝙁𝙄𝙍𝙀 𝙇𝙄𝙉𝙆.`)
+await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, m)
+console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
+console.log(e)
 handler.limit = false      
 }}
 handler.help = ['mediafire'].map(v => v + ' <url>')
