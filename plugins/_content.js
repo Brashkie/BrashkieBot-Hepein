@@ -8,62 +8,14 @@ var handler = m => m
 handler.all = async function (m) {
 global.key = ''
 
-// Cuentas
-const response = await fetch('https://raw.githubusercontent.com/Brashkie/BrashkieBot-Hepein/main/official_accounts.json')  
-const data = await response.json()
-let { accounts, channels, groups, collaboration, sponsors, others } = data.info
-
-global.yt = accounts.youTube
-global.yt2 = others.yt_vid
-global.ig = accounts.instagram
-global.md = accounts.gatabot_md
-global.fb = accounts.facebook
-global.tk = accounts.tiktok
-global.ths = accounts.threads
-global.paypal = accounts.paypal
-global.asistencia = others.assistance_num
-global.bot = 'wa.me/51918340705'
-global.cuentas = accounts.all
-
-global.canal1 = channels.channel1
-global.canal2 = channels.channel2
-global.canal3 = channels.channel3
-global.canal4 = channels.channel4
-
-global.soporteGB = others.group_support
-global.grupo1 = groups.group1
-global.grupo2 = groups.group2
-global.grupo3 = groups.group3
-global.grupo4 = groups.group4
-global.grupo5 = groups.group5
-global.grupo6 = groups.group6
-
-global.grupo_collab1 = collaboration.group1
-global.grupo_collab2 = collaboration.group2
-global.grupo_collab3 = collaboration.group3
-global.grupo_collab4 = collaboration.group4
-
-global.patrocinador1 = sponsors.boxmine
-global.patrocinador2 = sponsors.cafirexos
-global.patrocinador3 = sponsors.vortexus
-global.patrocinador4 = sponsors.asif
-
 global.canales = [canal1, canal2, canal3, canal4].getRandom()
 global.welgata = [tk, ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb, tk, ths, asistencia].getRandom()
 global.redesMenu = [canal1, canal2, canal3, canal4, soporteGB, grupo1, grupo2, grupo3, grupo4, grupo5, grupo6, md, ig, paypal, yt, asistencia, fb, tk].getRandom()
 global.accountsgb = [canal1, canal2, canal3, canal4, tk, ig, yt, paypal, fb, ths, md, asistencia].getRandom()
 
-var canalesInfo = [
-{ link: canal1, id: "aun no publicado", name: "❰▶ Brashkie Zeitsi 𖣐❱" },
-{ link: canal2, id: "aun no publicado", name: "❰▶ Brashkie Zeitsi 𖣐❱" },
-{ link: canal3, id: "aun no publicado", name: "❰▶ Brashkie Zeitsi 𖣐❱" } 
-]
-var indiceAleatorio = Math.floor(Math.random() * canalesInfo.length)
-var channelRD = canalesInfo[indiceAleatorio]
-
-global.fakeChannel = { contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: '', newsletterName: channelRD.name }, externalAdReply: { title: wm, body: vs, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: gataImg.getRandom(), thumbnail: imagen1, sourceUrl: accountsgb }}}, { quoted: m }
-global.fakeChannel2 = { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1 }, forwardingScore: 200, externalAdReply: { title: packname, body: author, thumbnailUrl: gataMenu.getRandom(), sourceUrl: accountsgb, mediaType: 1, renderLargerThumbnail: false }}
-
+global.canalIdGB = ["120363178367665133@newsletter", "120363178367665133@newsletter", "120363178367665133@newsletter", "120363178367665133@newsletter"]
+global.canalNombreGB = ["𒅒𖣐 Brashkie Zeitsi 𖣐𒅒", "𒅒𖣐 Brashkie Zeitsi 𖣐𒅒", "𒅒𖣐 Brashkie Zeitsi 𖣐𒅒", "𒅒𖣐 Brashkie Zeitsi 𖣐𒅒"]
+global.channelRD = await getRandomChannel()
 
 // Imágenes 
 global.imagen1 = fs.readFileSync("./media/menus/Menu3.jpg")
@@ -105,7 +57,8 @@ global.img17 = 'https://i.imgur.com/fxeWwBv.jpg'
 global.img18 = 'https://i.imgur.com/Mcvn53M.jpg'
 
 global.logogit = 'https://tinyurl.com/2qvl9vgs'
-global.gataVidMenu = ['https://telegra.ph/file/578261f3a5c1820d753c0.mp4', 'https://telegra.ph/file/fb6797f20e3c14312a6ed.mp4', 'https://telegra.ph/file/f6379d1afb78a2b371e3e.mp4'].getRandom()
+  
+global.gataVidMenu = ['https://qu.ax/TNPH.mp4', 'https://qu.ax/srFl.mp4', 'https://qu.ax/yLtv.mp4'].getRandom()
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18].getRandom()
 global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13].getRandom()
 
@@ -124,14 +77,14 @@ let ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.
 let fgif = {key: {participant : '0@s.whatsapp.net'}, message: {"videoMessage": { "title": wm, "h": `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./media/menus/Menu3.jpg')}}}
                              
 let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🥷', body: 'support group' , sourceUrl: redesMenu, thumbnail: await(await fetch(gataMenu)).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: ' 𖣐 𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲𝗕𝗼𝘁 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: gataMenu, sourceUrl: accountsgb }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '🥷 𝗦𝘂𝗽𝗲𝗿 𝗞𝗮𝘁𝗮𝘀𝗵𝗶𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: gataMenu, sourceUrl: accountsgb }}}
 let dos = [enlace, enlace2]  
 
-global.wait = "⌛ *`Cargando...`*\n*𒅒❤❤⊹⊹⊹⊹⊹⊹⊹⊹𒅒* `20%`"
-global.waitt = "⏳ *`Cargando....`*\n*𒅒❤❤❤❤⊹⊹⊹⊹⊹⊹𒅒* `40%`"
-global.waittt = "⌛ *`Cargando...`*\n*𒅒❤❤❤❤❤❤⊹⊹⊹⊹𒅒* `60%`"
-global.waitttt = "⏳ *`Cargando....`*\n*𒅒❤❤❤❤❤❤❤❤⊹⊹𒅒* `80%`"
-global.waittttt = "⌛ *`Procesando...`*\n*𒅒❤❤❤❤❤❤❤❤❤❤𒅒* `100%`"
+global.wait = "⌛ *`Cargando...`*\n*✪✦✦⊹⊹⊹⊹⊹⊹⊹⊹✪* `20%`"
+global.waitt = "⏳ *`Cargando....`*\n*✪✦✦✦✦⊹⊹⊹⊹⊹⊹✪* `40%`"
+global.waittt = "⌛ *`Cargando...`*\n*✪✦✦✦✦✦✦⊹⊹⊹⊹✪* `60%`"
+global.waitttt = "⏳ *`Cargando....`*\n*✪✦✦✦✦✦✦✦✦⊹⊹✪* `80%`"
+global.waittttt = "⌛ *`Procesando...`*\n*✪✦✦✦✦✦✦✦✦✦✦✪* `100%`"
 
 global.destraba = `⏰DESTRABA⏰*
 li.DESTRAVip.to
@@ -156,3 +109,10 @@ await conn.sendMessage(m.chat, { text: mensajes[i], edit: key })
 function pickRandom(list) {
 return list[Math.floor(Math.random() * list.length)]
   }
+
+async function getRandomChannel() {
+let randomIndex = Math.floor(Math.random() * canalIdGB.length)
+let id = canalIdGB[randomIndex]
+let nombre = canalNombreGB[randomIndex]
+return { id, nombre }
+} 	
