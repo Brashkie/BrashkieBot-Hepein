@@ -21,10 +21,12 @@ global.owner = [
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 global.mods = []
-global.prems = ["51918340705"]
+//global.prems = ["51918340705"]
+global.prems = []
 //key de violetics
-global.Key360 = ["964f-0c75-7afc"]
-   
+//global.Key360 = ["964f-0c75-7afc"]
+
+
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
 //Agrega el Idioma que quieres que tenga KatashiBot-MD
@@ -33,16 +35,52 @@ global.Key360 = ["964f-0c75-7afc"]
 //  en = English         pt = Português 
 //  ar = عرب             hi = Hindi Language
 
-global.lenguajeGB = es //Idioma de KatashiBot, Ejemplo: es | en | pt...
+//global.lenguajeGB = es //Idioma de KatashiBot, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.openai_key = 'sk-0'
+//global.openai_key = 'sk-0'
 /* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
 
-global.openai_org_id = 'org-3'
+//global.openai_org_id = 'org-3'
 /* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
 
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+// ❰❰ RENDER ❱❱
+//Kurt18: Obtener el código QR por la URL del Hosting
+global.obtenerQrWeb = 0; //Solo valores: 1 o 0
+//Kurt18: Aplica para Host Render.com
+global.keepAliveRender = 0; //Solo valores: 1 o 0
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+// ❰❰ methodCode ❱❱
+// [ES] > Agregue el número del Bot en "botNumberCode" si desea recibir código de 8 dígitos sin registrar el número en la consola.
+// [EN] > Add the Bot number in "botNumberCode" if you want to receive 8-digit code without registering the number in the console.
+global.botNumberCode = "" //example: "+59309090909"
+global.confirmCode = "" // No tocar esto : Do not touch this line
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+// ❰❰ Multi Idioma Dinámico : Dynamic Multi Language (MID-GB) ❱❱
+// [ES] > Agregué uno de los idiomas disponibles para el Bot en "mid".
+// [EN] > I added one of the languages available for the Bot in "mid".
+
+// ❰❰ IDIOMAS DISPONIBLES : AVAILABLE LANGUAGES ❱❱
+// Español 👉 es           
+// English 👉 en
+global.lenguajeGB = es
+global.mid = esDefault
+global.version_language = '1.0 (MID-GB)'
+
+// [ES] > Si "default_language" esta vacío, su idioma predeterminado será Español o se usará el idioma que cada usuario haya seleccionado al momento de registrarse. 
+// [EN] > If "default_language" is empty, your default language will be Spanish or the language that each user has selected at the time of registration will be used.
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+// ❰❰ API KEYS ❱❱
+global.Key360 = ["Gata_Dios"] // key Ephoto360
+global.openai_key = 'sk-0' // Api New: https://platform.openai.com/account/api-keys 
+global.openai_org_id = 'org-3' // Api New: https://platform.openai.com/account/org-settings */
 global.keysZens = ["LuOlangNgentot", "c2459db922", "37CC845916", "6fb0eff124", "hdiiofficial", "fiktod", "BF39D349845E", "675e34de8a", "0b917b905e6f"]
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ["29d4b59a4aa687ca", "5LTV57azwaid7dXfz5fzJu", "cb15ed422c71a2fb", "5bd33b276d41d6b4", "HIRO", "kurrxd09", "ebb6251cc00f9c63"]
@@ -54,48 +92,50 @@ global.itsrose = ["4b146102c4d500809da9d1ff"]
 global.baileys = "@whiskeysockets/baileys"
 
 global.APIs = { 
-  xteam: 'https://api.xteam.xyz',
-  dzx: 'https://api.dhamzxploit.my.id',
-  lol: 'https://api.lolhuman.xyz',
-  violetics: 'https://violetics.pw',
-  neoxr: 'https://api.neoxr.my.id',
-  zenzapis: 'https://api.zahwazein.xyz',
-  akuari: 'https://api.akuari.my.id',
-  akuari2: 'https://apimu.my.id',	
-  fgmods: 'https://api-fgmods.ddns.net',
-  botcahx: 'https://api.botcahx.biz.id',
-  ibeng: 'https://api.ibeng.tech/docs',	
-  rose: 'https://api.itsrose.site',
-  popcat : 'https://api.popcat.xyz',
-  xcoders : 'https://api-xcoders.site'
+xteam: 'https://api.xteam.xyz',
+dzx: 'https://api.dhamzxploit.my.id',
+lol: 'https://api.lolhuman.xyz',
+violetics: 'https://violetics.pw',
+neoxr: 'https://api.neoxr.my.id',
+zenzapis: 'https://api.zahwazein.xyz',
+akuari: 'https://api.akuari.my.id',
+akuari2: 'https://apimu.my.id',	
+fgmods: 'https://api.fgmods.xyz', 
+botcahx: 'https://api.botcahx.biz.id',
+ibeng: 'https://api.ibeng.tech/docs',	
+rose: 'https://api.itsrose.site',
+popcat : 'https://api.popcat.xyz',
+xcoders : 'https://api-xcoders.site'
 },
+   
 global.APIKeys = { 
-  'https://api.xteam.xyz': `${keysxteam}`,
-  'https://api.lolhuman.xyz': `${lolkeysapi}`,
-  'https://api.neoxr.my.id': `${keysneoxr}`,	
-  'https://violetics.pw': 'beta',
-  'https://api.zahwazein.xyz': `${keysxxx}`,
-  'https://api-fgmods.ddns.net': 'fg-dylux',
-  'https://api.botcahx.biz.id': 'Admin',
-  'https://api.ibeng.tech/docs': 'tamvan',
-  'https://api.itsrose.site': 'Rs-Zeltoria',
-  'https://api-xcoders.site': 'Frieren'
-};
+'https://api.xteam.xyz': `${keysxteam}`,
+'https://api.lolhuman.xyz': `${lolkeysapi}`,
+'https://api.neoxr.my.id': `${keysneoxr}`,	
+'https://violetics.pw': 'beta',
+'https://api.zahwazein.xyz': `${keysxxx}`,
+'https://api.fgmods.xyz': 'DRLg5kY7', 
+'https://api-fgmods.ddns.net': 'fg-dylux',
+'https://api.botcahx.biz.id': 'Admin',
+'https://api.ibeng.tech/docs': 'tamvan',
+'https://api.itsrose.site': 'Rs-Zeltoria',
+'https://api-xcoders.site': 'Frieren'
+}
 
-global.mods = []
+//global.mods = []
 
 
-/*************************/
+// ❰❰ bibliotecas : libraries ❱❱
 global.cheerio = cheerio
 global.fs = fs
 global.fetch = fetch
 global.axios = axios
 global.moment = moment
-
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.official = [ // Agregate si eres Owner
-["51918340705", '𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗗𝗶𝗼𝘀 💻', 1], 
+["51918340705", '𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗭𝗲𝗶𝘁𝘀𝗶 💻', 1], 
 ["5217442363122", '𝑖𝑍𝑖 👻', 1],  
 ["5493513446678", 'Martin Batman', 1],
 ["5218771647787", 'IssSG', 1],
@@ -114,8 +154,13 @@ global.author = "✥𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗗𝗶𝗼𝘀✥"
 
 global.vs = "1.4.9"
 global.vsJB = "2.5 (Beta)"
+global.gt = "𒁈𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗭𝗲𝗶𝘁𝘀𝗶𒁈"
 
-global.gt = "☆ℍ𝕖𝕡𝕖𝕚𝕟𝔹𝕠𝕥☆"
+fetchDataAndProcess().catch(error => console.error('Ocurrió un error:', error))
+
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+/*global.gt = "☆ℍ𝕖𝕡𝕖𝕚𝕟𝔹𝕠𝕥☆"
 global.yt = "https://www.youtube.com/channel/UCKwgQ_LQgAlSmVrYHiHH_1Q"
 global.yt2 = "https://www.youtube.com/watch?v=wAm5WlmLIaU"
 global.ig = "https://www.instagram.com/moisesyaurivilcacenteno/"
@@ -137,7 +182,7 @@ global.nnnttt3 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //Grupo 8 CO
 global.nnnttt4 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //Grupo 9 COL - GRUPO KATASHIBOT
 global.nnnttt5 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //A.T.M.M - GRUPO KATASHIBOT
 global.paypal = 'https://paypal.me/BrashkieBot'
-global.asistencia = 'Wa.me/51918340705' //Dudas? escríbeme...
+global.asistencia = 'Wa.me/51918340705' //Dudas? escríbeme...*/
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -173,10 +218,10 @@ global.exito = eg
 
 global.wm = "☆𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲𝗕𝗼𝘁☆ : ✥𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗗𝗶𝗼𝘀✥"
 global.igfg = "☆ℍ𝕖𝕡𝕖𝕚𝕟𝔹𝕠𝕥☆"
-global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
+/*global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
 global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
-global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
+global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"*/
 global.nomorown = "51918340705"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"];
 
@@ -185,7 +230,7 @@ global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.pre
 
 //⊱ ━━━━━.⋅ IMG ⋅.━━━━ ⊰
 
-global.imagen1 = fs.readFileSync("./media/menus/Menu3.jpg")
+/*global.imagen1 = fs.readFileSync("./media/menus/Menu3.jpg")
 global.imagen2 = fs.readFileSync("./media/menus/img1.jpg")
 global.imagen3 = fs.readFileSync("./media/menus/img2.jpg")
 global.imagen4 = fs.readFileSync("./media/menus/img3.jpg")
@@ -234,7 +279,7 @@ global.welgata = [ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb]
 global.redesMenu = [cnl, nna, nn, nnn, nnnt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, md, ig, paypal, yt, asistencia, fb]
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
 global.gataVidMenu = ['https://telegra.ph/file/578261f3a5c1820d753c0.mp4', 'https://telegra.ph/file/fb6797f20e3c14312a6ed.mp4', 'https://telegra.ph/file/f6379d1afb78a2b371e3e.mp4']
-global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]
+global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]*/
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -268,30 +313,26 @@ global.fin = " • •"
 global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; //Asia/Jakarta
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;//America/Los_Angeles
 global.fgif = {
-            key: {
-                 participant : '0@s.whatsapp.net'},
-            message: { 
-                        "videoMessage": { 
-                        "title": wm,
-                        "h": `Hmm`,
-                        'seconds': '999999999', 
-                        'gifPlayback': 'true', 
-                        'caption': bottime,
-                        'jpegThumbnail': fs.readFileSync('./media/menus/Menu3.jpg')
-                               }
-                              }
-                             };
-
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+key: {
+participant : '0@s.whatsapp.net'},
+message: { 
+"videoMessage": { 
+"title": wm,
+"h": `Hmm`,
+'seconds': '999999999', 
+'gifPlayback': 'true', 
+'caption': bottime,
+'jpegThumbnail': fs.readFileSync('./media/menus/Menu3.jpg')
+}}}
 
 
-global.multiplier = 60 // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup 
+global.multiplier = 85 // Cuanto más alto, más difícil subir de nivel 
 
 //Emojis RPG - Referencias
 global.rpg = {
-  emoticon(string) {
-    string = string.toLowerCase();
-    let emot = {
+emoticon(string) {
+string = string.toLowerCase();
+let emot = {
       level: '🧬 Nivel : Level',
       limit: lenguajeGB.eDiamante(),
       exp: lenguajeGB.eExp(),
@@ -378,17 +419,16 @@ global.rpg = {
       fideos: '🍝 Fideos : Noodles',
       ramuan: '🧪 Ingrediente NOVA : Ingredients',
       knife: '🔪 Cuchillo : Knife'
-    };
-    let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string));
-    if (!results.length) return '';
-    else return emot[results[0][0]];
-  }
-};
+}
+let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
+if (!results.length) return ''
+else return emot[results[0][0]];
+}}
 
 global.rpgg = { //Solo emojis 
-  emoticon(string) {
-    string = string.toLowerCase();
-    let emott = {
+emoticon(string) {
+string = string.toLowerCase();
+let emott = {
       level: '🧬', limit: '💎', exp: '⚡', bank: '🏦',
       diamond: '💎+', health: '❤️', kyubi: '🌀', joincount: '🪙',
       emerald: '💚', stamina: '✨', role: '💪', premium: '🎟️',
@@ -413,18 +453,16 @@ global.rpgg = { //Solo emojis
       wolf: '🐺', tiger: '🐅', cumi: '🦑', udang: '🦐', ikan: '🐟',
       
       fideos: '🍝', ramuan: '🧪', knife: '🔪'
-    };
-    let results = Object.keys(emott).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string));
-    if (!results.length) return '';
-    else return emott[results[0][0]];
-  }
-};
-
+}
+let results = Object.keys(emott).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string));
+if (!results.length) return '';
+else return emott[results[0][0]];
+}}
 
 global.rpgshop = { //Tienda
-  emoticon(string) {
-    string = string.toLowerCase();
-    let emottt = {
+emoticon(string) {
+string = string.toLowerCase();
+let emottt = {
       exp: lenguajeGB.eExp(), limit: lenguajeGB.eDiamante(), diamond: lenguajeGB.eDiamantePlus(), joincount: lenguajeGB.eToken(),
       emerald: lenguajeGB.eEsmeralda(), berlian: lenguajeGB.eJoya(), kyubi: lenguajeGB.eMagia(), gold: lenguajeGB.eOro(),
       money: lenguajeGB.eGataCoins(), tiketcoin: lenguajeGB.eGataTickers(), stamina: lenguajeGB.eEnergia(),
@@ -454,17 +492,16 @@ global.rpgshop = { //Tienda
       petFood: lenguajeGB.eAMascots(), //?
       makanancentaur: lenguajeGB.eCCentauro(), makanangriffin: lenguajeGB.eCAve(),
       makanankyubi: lenguajeGB.eCMagica(), makanannaga: lenguajeGB.eCDragon(), makananpet: lenguajeGB.eACaballo(), makananphonix: lenguajeGB.eCFenix()
-    }
-    let results = Object.keys(emottt).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string));
-    if (!results.length) return '';
-    else return emottt[results[0][0]];
-  }
-};
+}
+let results = Object.keys(emottt).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string));
+if (!results.length) return '';
+else return emottt[results[0][0]];
+}}
 
 global.rpgshopp = { //Tienda
-  emoticon(string) {
-    string = string.toLowerCase();
-    let emotttt = {
+emoticon(string) {
+string = string.toLowerCase();
+let emotttt = {
       exp: '⚡', limit: '💎', diamond: '💎+', joincount: '🪙',
       emerald: '💚', berlian: '♦️', kyubi: '🌀', gold: '👑',
       money: '🐱', tiketcoin: '🎫', stamina: '✨',
@@ -492,16 +529,57 @@ global.rpgshopp = { //Tienda
       petFood: '🍖', //?
       makanancentaur: '🐐🥩', makanangriffin: '🦅🥩', makanankyubi: '🌀🥩', makanannaga: '🐉🥩',
       makananpet: '🍱🥩', makananphonix: '🕊️🥩'  
-    }
-    let results = Object.keys(emotttt).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string));
-    if (!results.length) return '';
-    else return emotttt[results[0][0]];
-  }
-};
+}
+let results = Object.keys(emotttt).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string));
+if (!results.length) return '';
+else return emotttt[results[0][0]];
+}}
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 let file = fileURLToPath(import.meta.url);
 watchFile(file, () => {
-  unwatchFile(file);
-  console.log(chalk.redBright("Update 'config.js'"));
-  import(`${file}?update=${Date.now()}`);
-});
+unwatchFile(file);
+console.log(chalk.redBright("Update 'config.js'"));
+import(`${file}?update=${Date.now()}`);
+})
+
+async function fetchDataAndProcess() {
+const response = await fetch('https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/official_accounts.json')
+const data = await response.json() 
+let { accounts, channels, groups, collaboration, sponsors, others } = data.info
+
+global.yt = accounts.youTube
+global.yt2 = others.yt_vid
+global.ig = accounts.instagram
+global.md = accounts.gatabot_md
+global.fb = accounts.facebook
+global.tk = accounts.tiktok
+global.ths = accounts.threads
+global.paypal = accounts.paypal
+global.asistencia = others.assistance_num
+global.bot = 'wa.me/51918340705'
+global.cuentas = accounts.all
+
+global.canal1 = channels.channel1
+global.canal2 = channels.channel2
+global.canal3 = channels.channel3
+global.canal4 = channels.channel4
+
+global.soporteGB = others.group_support
+global.grupo1 = groups.group1
+global.grupo2 = groups.group2
+global.grupo3 = groups.group3
+global.grupo4 = groups.group4
+global.grupo5 = groups.group5
+global.grupo6 = groups.group6
+
+global.grupo_collab1 = collaboration.group1
+global.grupo_collab2 = collaboration.group2
+global.grupo_collab3 = collaboration.group3
+global.grupo_collab4 = collaboration.group4
+
+global.patrocinador1 = sponsors.boxmine
+global.patrocinador2 = sponsors.cafirexos
+global.patrocinador3 = sponsors.vortexus
+global.patrocinador4 = sponsors.asif
+}
