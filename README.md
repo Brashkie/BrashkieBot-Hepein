@@ -51,3 +51,8 @@ yarn
 npm install 
 npm start
 ```
+## INSTALACION RAPIDA WINDOW
+```bash
+git clone https://github.com/Brashkie/BrashkieBot-Hepein && cd BrashkieBot-Hepein && npm install -g yarn && yarn && npm install
+npm run qr
+```
