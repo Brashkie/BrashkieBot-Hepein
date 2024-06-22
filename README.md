@@ -64,6 +64,6 @@ npm run qr
 * Descargar e instala FFmpeg [`Aquí`](https://ffmpeg.org/download.html) (**No olvide agregar FFmpeg a la variable de entorno PATH**)
 * Descargar e instala ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
 * Descargar e instala Yarn [`Aquí`](https://classic.yarnpkg.com/en/docs/install#windows-stable)
-```
+```bash
 git clone https://github.com/Brashkie/BrashkieBot-Hepein && cd BrashkieBot-Hepein && npm install && npm update && node .
 ```
