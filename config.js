@@ -1,4 +1,4 @@
-import { watchFile, unwatchFile } from "fs"  
+import { watchFile, unwatchFile } from "fs"
 import chalk from "chalk"
 import { fileURLToPath } from "url"
 import fs from "fs"
@@ -6,44 +6,24 @@ import cheerio from "cheerio"
 import fetch from "node-fetch"
 import axios from "axios"
 import moment from "moment-timezone"
-import { en, es, id, ar, pt, fr, hi } from "./lib/idiomas/total-idiomas.js"
- 
-//⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
+import { es as esDefault, en as enDefault } from "./lib/multi-language/_default.js"
+import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+// [ES] > Agrega el número que será Bot y los que serán propietarios.
+// [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["51918340705", '☆ℍ𝕖𝕡𝕖𝕚𝕟-𝑩𝒐𝒕☆', true],
-["51948705559", '𝙊𝙬𝙣𝙚𝙧', true], 
-["51948273587"],  
-["5217442363122", true],
-["5217294888993"], ["5217445404792"],
-["5492964650915"]]
-
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+['51918340705', '☆ℍ𝕖𝕡𝕖𝕚𝕟-𝑩𝒐𝒕☆', false],
+['51918340705', '𝙊𝙬𝙣𝙚𝙧', true],  
+['5217442363122', '𝑖𝑍𝑖', true],
+['59175655964', 'Alba070503', false],
+['5217294888993'], ['5217445404792'],
+['573012482597'],
+['5492964650915']]
 
 global.mods = []
-//global.prems = ["51918340705"]
 global.prems = []
-//key de violetics
-//global.Key360 = ["964f-0c75-7afc"]
-
-
-  
-//⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga KatashiBot-MD
-//Add the language you want KatashiBot-MD to have
-//  es = Español         id = Bahasa Indonesia
-//  en = English         pt = Português 
-//  ar = عرب             hi = Hindi Language
-
-//global.lenguajeGB = es //Idioma de KatashiBot, Ejemplo: es | en | pt...
-
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
-
-//global.openai_key = 'sk-0'
-/* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
-
-//global.openai_org_id = 'org-3'
-/* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // ❰❰ RENDER ❱❱
@@ -77,6 +57,7 @@ global.version_language = '1.0 (MID-GB)'
 // [EN] > If "default_language" is empty, your default language will be Spanish or the language that each user has selected at the time of registration will be used.
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // ❰❰ API KEYS ❱❱
 global.Key360 = ["Gata_Dios"] // key Ephoto360
 global.openai_key = 'sk-0' // Api New: https://platform.openai.com/account/api-keys 
@@ -121,10 +102,9 @@ global.APIKeys = {
 'https://api.itsrose.site': 'Rs-Zeltoria',
 'https://api-xcoders.site': 'Frieren'
 }
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-//global.mods = []
-
-
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // ❰❰ bibliotecas : libraries ❱❱
 global.cheerio = cheerio
 global.fs = fs
@@ -132,62 +112,38 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-//⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+// [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
+// [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["51918340705", '𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗭𝗲𝗶𝘁𝘀𝗶 💻', 1], 
+["51948705559", '𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗗𝗶𝗼𝘀 💻', 1], 
 ["5217442363122", '𝑖𝑍𝑖 👻', 1],  
 ["5493513446678", 'Martin Batman', 1],
 ["5218771647787", 'IssSG', 1],
 ["51948273587", 'Katashi Two', 1],
 ["5492964650915", '♥️🎩⚠︎    シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎   ⚠︎🎩♥️', 1]]
 
-global.mail = '' //agrega tú correo
-global.desc = '' //agrega una descripción corta
-global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
-global.country = '' //agrega tú país ejemplo: 🇪🇨
+global.mail = '' // Add email
+global.desc = '' // Add short description (20 caractres max)
+global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se aplicará sólo si su whasapp no tiene descripción)
+global.country = '' // Add country, example: 🇪🇨
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.packname = "☆ℍ𝕖𝕡𝕖𝕚𝕟𝔹𝕠𝕥☆"
 global.author = "✥𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗗𝗶𝗼𝘀✥"
 
-//⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
-
-global.vs = "1.4.9"
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+// [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
+// MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
+// [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
+global.vs = "1.0.1"
 global.vsJB = "2.5 (Beta)"
-global.gt = "𒁈𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗭𝗲𝗶𝘁𝘀𝗶𒁈"
+global.gt = "☆ℍ𝕖𝕡𝕖𝕚𝕟𝔹𝕠𝕥☆"
 
 fetchDataAndProcess().catch(error => console.error('Ocurrió un error:', error))
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-
-/*global.gt = "☆ℍ𝕖𝕡𝕖𝕚𝕟𝔹𝕠𝕥☆"
-global.yt = "https://www.youtube.com/channel/UCKwgQ_LQgAlSmVrYHiHH_1Q"
-global.yt2 = "https://www.youtube.com/watch?v=wAm5WlmLIaU"
-global.ig = "https://www.instagram.com/moisesyaurivilcacenteno/"
-global.md = "https://github.com/Brashkie"
-global.fb = "https://www.facebook.com/moises.yaurivilca/"
-
-global.cnl = 'https://whatsapp.com/channel/0029Va8t5DZ9cDDU8ntWVJ2n' //CANAL KATASHIBOT
-global.nna = 'https://whatsapp.com/channel/0029Va8t5DZ9cDDU8ntWVJ2n' //UPDATE KATASHIBOT
-global.nn2 = 'https://whatsapp.com/channel/0029Va8t5DZ9cDDU8ntWVJ2n' //UPDATE 2
-global.nna2 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //Help
-global.nn = 'https://chat.whatsapp.com/Dzl78SFcnbfCcj0XbbjLYl' //Grupo 1 - Anime
-global.nnn = 'https://chat.whatsapp.com/HOuFyPPAQ6E24CL87EpPCe' //Grupo 2 - PapuCity 2.5
-global.nnnt = 'https://chat.whatsapp.com/D7rWtA4NPM2An3fP4axn0D' //Grupo 3 - PapuGaymers HD
-global.nnntt = 'https://chat.whatsapp.com/JrPYbBETich6HFYvLYq9Pf' //Grupo 4 - El Hentai es Literatura
-global.nnnttt = 'https://chat.whatsapp.com/JyPIlLE4gPg9XJkbUhBhHf' //Grupo 5 - Anexados del infierno
-global.nnnttt1 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW'; //Grupo 6 COL - GRUPO KATASHIBOT
-global.nnnttt2 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //Grupo 7 COL - GRUPO KATASHIBOT
-global.nnnttt3 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //Grupo 8 COL - GRUPO KATASHIBOT
-global.nnnttt4 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //Grupo 9 COL - GRUPO KATASHIBOT
-global.nnnttt5 = 'https://chat.whatsapp.com/CnBH1Cdi1pG9jWjmAeUVGW' //A.T.M.M - GRUPO KATASHIBOT
-global.paypal = 'https://paypal.me/BrashkieBot'
-global.asistencia = 'Wa.me/51918340705' //Dudas? escríbeme...*/
-
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
-
-
-//⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
 
 global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
 global.resultado = rg
@@ -210,82 +166,15 @@ global.envio = eeg
 global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
 global.exito = eg
 
-//𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
-
-
-//⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
-
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 global.wm = "☆𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲𝗕𝗼𝘁☆ : ✥𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗗𝗶𝗼𝘀✥"
 global.igfg = "☆ℍ𝕖𝕡𝕖𝕚𝕟𝔹𝕠𝕥☆"
-/*global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
-global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
-global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
-global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"*/
 global.nomorown = "51918340705"
-global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"];
+global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
-
-
-//⊱ ━━━━━.⋅ IMG ⋅.━━━━ ⊰
-
-/*global.imagen1 = fs.readFileSync("./media/menus/Menu3.jpg")
-global.imagen2 = fs.readFileSync("./media/menus/img1.jpg")
-global.imagen3 = fs.readFileSync("./media/menus/img2.jpg")
-global.imagen4 = fs.readFileSync("./media/menus/img3.jpg")
-global.imagen5 = fs.readFileSync("./media/menus/img4.jpg")
-global.imagen6 = fs.readFileSync("./media/menus/img5.jpg")
-global.imagen7 = fs.readFileSync("./media/menus/img6.jpg")
-global.imagen8 = fs.readFileSync("./media/menus/img7.jpg")
-global.imagen9 = fs.readFileSync("./media/menus/img8.jpg")
-global.imagen10 = fs.readFileSync("./media/menus/img9.jpg")
-global.imagen11 = fs.readFileSync("./media/menus/img10.jpg")
-global.imagen12 = fs.readFileSync("./media/menus/img11.jpg")
-global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
-
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
-
-
-//━━━━━━━━━━━━━━ img ━━━━━━━━━
-
-global.img = 'https://telegra.ph/file/34ca2bf7d84668a682a93.jpg'
-global.img2 = 'https://telegra.ph/file/34ca2bf7d84668a682a93.jpg'
-
-global.img3 = 'https://telegra.ph/file/23dd19e3db03ab6945e18.jpg' //prem
-global.img4 = 'https://telegra.ph/file/23dd19e3db03ab6945e18.jpg' //prem
-
-global.img5 = 'https://telegra.ph/file/d337dec60fe1071fd2117.jpg'
-global.img6 = 'https://telegra.ph/file/d337dec60fe1071fd2117.jpg'
-global.img7 = 'https://telegra.ph/file/1a956e9ea32f8c970bc1e.jpg'
-global.img8 = 'https://telegra.ph/file/1a956e9ea32f8c970bc1e.jpg'
-global.img9 = 'https://telegra.ph/file/56a318af6a5e5459c179b.jpg'
-
-global.img10 = 'https://telegra.ph/file/56a318af6a5e5459c179b.jpg'
-global.img11 = 'https://telegra.ph/file/574b9e1a8564e329b5332.jpg'
-global.img12 = 'https://telegra.ph/file/574b9e1a8564e329b5332.jpg'
-global.img13 = 'https://telegra.ph/file/3307517eab3de41c9692a.jpg'
-global.img14 = 'https://telegra.ph/file/3307517eab3de41c9692a.jpg'
-global.img15 = 'https://telegra.ph/file/1817e135b1cdd7bc40972.jpg'
-
-global.img16 = 'https://telegra.ph/file/1817e135b1cdd7bc40972.jpg' //+18
-
-global.img17 = 'https://telegra.ph/file/34ca2bf7d84668a682a93.jpg'
-global.img18 = 'https://telegra.ph/file/3307517eab3de41c9692a.jpg'
-
-global.logogit = 'https://telegra.ph/file/646834e7dbad0e8dfd196.jpg'
-
-global.welgata = [ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb]
-global.redesMenu = [cnl, nna, nn, nnn, nnnt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, md, ig, paypal, yt, asistencia, fb]
-global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
-global.gataVidMenu = ['https://telegra.ph/file/578261f3a5c1820d753c0.mp4', 'https://telegra.ph/file/fb6797f20e3c14312a6ed.mp4', 'https://telegra.ph/file/f6379d1afb78a2b371e3e.mp4']
-global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]*/
-
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
-
-
-//⊱ ━━━━━.⋅ RPG ⋅.━━━━ ⊰
-
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+// ❰ RPG ❱
 global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
@@ -544,7 +433,7 @@ import(`${file}?update=${Date.now()}`);
 })
 
 async function fetchDataAndProcess() {
-const response = await fetch('https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/official_accounts.json')
+const response = await fetch('https://raw.githubusercontent.com/Brashkie/BrashkieBot-Hepein/main/official_accounts.json')
 const data = await response.json() 
 let { accounts, channels, groups, collaboration, sponsors, others } = data.info
 
