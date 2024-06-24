@@ -157,78 +157,75 @@ ${readMore}
 
  ══《☬ _REPORTES_ ☬》══
 > Reportar al creador sobre problema del comando
-⮑${usedPrefix}reporte *texto*
+ ⮑${usedPrefix}reporte *texto*
    Haga un reporte
    en caso de una falla
    en algun comando
 
 
-╭═══〘☬ _User Premium_ ☬〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _${usedPrefix}listapremium | listprem_
-┃☭│ _${usedPrefix}pase premium_
-┃☭│ _${usedPrefix}pass premium_
-┃☭╰───────────────
-╰═════════════════⊷
+ ══〘☬ _User Premium_ ☬〙══
+> Comandos de premium
+ ⮑${usedPrefix}listapremium | listprem
+ ⮑${usedPrefix}pase premium
+ ⮑${usedPrefix}pass premium
 
-╭════〘☬ _ENTRETENIMIENTO_ ☬〙════⊷❍
-│
-│☭│ _${usedPrefix}acertijo_
-│☭│ _${usedPrefix}palabra | ordenar_
-│☭│ _${usedPrefix}pelicula | adv_
-┃☭│ _${usedPrefix}mates | matemáticas | math_
-┃☭│ _${usedPrefix}ppt *piedra : papel : tijera*_
-┃☭│ _${usedPrefix}lanzar *cara* | *cruz*_
-┃☭│ _${usedPrefix}tictactoe | ttt *sala*_
-┃☭│ _${usedPrefix}deltictactoe | delttt_
-┃☭│ _${usedPrefix}topgays_
-┃☭│ _${usedPrefix}topotakus_
-┃☭│ _${usedPrefix}topcallados_
-┃☭│ _${usedPrefix}tophacker_
-┃☭│ _${usedPrefix}topinfiel_
-┃☭│ _${usedPrefix}toppajer@s_
-┃☭│ _${usedPrefix}topput@s_ 
-┃☭│ _${usedPrefix}topintegrantes | topintegrante_
-┃☭│ _${usedPrefix}toplagrasa | topgrasa_
-┃☭│ _${usedPrefix}toppanafrescos | toppanafresco_
-┃☭│ _${usedPrefix}topshiposters | topshipost_
-┃☭│ _${usedPrefix}toplindos | toplind@s_ 
-┃☭│ _${usedPrefix}topfamosos | topfamos@s_
-┃☭│ _${usedPrefix}topparejas | top5parejas_ 
-┃☭│ _${usedPrefix}gay | gay *@tag*_ 
-┃☭│ _${usedPrefix}gay2 *nombre : @tag*_ 
-┃☭│ _${usedPrefix}lesbiana *nombre : @tag*_ 
-┃☭│ _${usedPrefix}manca *nombre : @tag*_
-┃☭│ _${usedPrefix}manco *nombre : @tag*_
-┃☭│ _${usedPrefix}pajero *nombre : @tag*_
-┃☭│ _${usedPrefix}pajera *nombre : @tag*_
-┃☭│ _${usedPrefix}puto *nombre : @tag*_
-┃☭│ _${usedPrefix}puta *nombre : @tag*_
-┃☭│ _${usedPrefix}rata *nombre : @tag*_
-┃☭│ _${usedPrefix}love *nombre : @tag*_
-┃☭│ _${usedPrefix}ship | shipear *nombre1 nombre2*_
-┃☭│ _${usedPrefix}doxear *nombre : @tag*_
-┃☭│ _${usedPrefix}doxxeame_
-┃☭│ _${usedPrefix}apostar | slot *cantidad*_
-┃☭│ _${usedPrefix}pregunta *texto*_
-┃☭│ _${usedPrefix}formarpareja_ 
-┃☭│ _${usedPrefix}dado_
-┃☭│ _${usedPrefix}verdad_
-┃☭│ _${usedPrefix}reto_
-┃☭│ _${usedPrefix}juegos_
-┃☭│ _${usedPrefix}edufrase_
-┃☭│ _${usedPrefix}animes_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
 
-╭═══〘☬ _IA Hepein_ ☬〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _puedes buscar lo que deseas usando:_
-┃☭│ _${usedPrefix}simi | ia *texto*_
-┃☭│ _${usedPrefix}alexa | siri | cortana *texto*_ 
-┃☭│ _${usedPrefix}simsimi | bixby *texto*_
-┃☭╰───────────────
-╰═════════════════⊷
+
+ ══〘☬ _ENTRETENIMIENTO_ ☬〙═══
+> Comandos para divertir
+ ⮑${usedPrefix}acertijo
+ ⮑${usedPrefix}palabra | ordenar
+ ⮑${usedPrefix}pelicula | adv
+ ⮑${usedPrefix}mates | matemáticas | math
+ ⮑${usedPrefix}ppt *piedra : papel : tijera*
+ ⮑${usedPrefix}lanzar *cara* | *cruz*
+ ⮑${usedPrefix}tictactoe | ttt *sala*
+ ⮑${usedPrefix}deltictactoe | delttt
+ ⮑${usedPrefix}topgays
+ ⮑${usedPrefix}topotakus
+ ⮑${usedPrefix}topcallados
+ ⮑${usedPrefix}tophacker
+ ⮑${usedPrefix}topinfiel
+ ⮑${usedPrefix}toppajer@s
+ ⮑${usedPrefix}topput@s 
+ ⮑${usedPrefix}topintegrantes | topintegrante
+ ⮑${usedPrefix}toplagrasa | topgrasa_
+ ⮑${usedPrefix}toppanafrescos | toppanafresco
+ ⮑${usedPrefix}topshiposters | topshipost
+ ⮑${usedPrefix}toplindos | toplind@s 
+ ⮑${usedPrefix}topfamosos | topfamos@s
+ ⮑${usedPrefix}topparejas | top5parejas 
+ ⮑${usedPrefix}gay | gay *@tag* 
+ ⮑${usedPrefix}gay2 *nombre : @tag*
+ ⮑${usedPrefix}lesbiana *nombre : @tag*
+ ⮑${usedPrefix}manca *nombre : @tag*
+ ⮑${usedPrefix}manco *nombre : @tag*
+ ⮑${usedPrefix}pajero *nombre : @tag*
+ ⮑${usedPrefix}pajera *nombre : @tag*
+ ⮑${usedPrefix}puto *nombre : @tag*
+ ⮑${usedPrefix}puta *nombre : @tag*
+ ⮑${usedPrefix}rata *nombre : @tag*
+ ⮑${usedPrefix}love *nombre : @tag*
+ ⮑${usedPrefix}ship | shipear *nombre1 nombre2*
+ ⮑${usedPrefix}doxear *nombre : @tag*
+ ⮑${usedPrefix}doxxeame
+ ⮑${usedPrefix}apostar | slot *cantidad*
+ ⮑${usedPrefix}pregunta *texto*
+ ⮑${usedPrefix}formarpareja
+ ⮑${usedPrefix}dado
+ ⮑${usedPrefix}verdad
+ ⮑${usedPrefix}reto
+ ⮑${usedPrefix}juegos
+ ⮑${usedPrefix}edufrase
+ ⮑${usedPrefix}animes
+
+
+ ══〘☬ *IA HEPEIN* ☬〙══
+> puedes buscar lo que deseas usando
+ ⮑${usedPrefix}simi | ia *texto*
+ ⮑${usedPrefix}alexa | siri | cortana *texto*
+ ⮑${usedPrefix}simsimi | bixby *texto*
+
 
 ╭════〘☬ AJUSTES EN CHATS/GRUPOS ☬〙════⊷❍
 │ _Puedes mejorar tu grupo con Hepein bot_
