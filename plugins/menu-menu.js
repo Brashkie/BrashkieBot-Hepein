@@ -98,75 +98,70 @@ let menu = `╭═══〘𖣐 _Hepein Bot_ 𖣐〙═══⊷❍
 ╰═════════════════⊷
 
 
-══《☬ ℝ𝔼𝔾𝕃𝔸 ☬》══
+ ══《☬ ℝ𝔼𝔾𝕃𝔸 ☬》══
 > Regla del Bot
   ⮑${usedPrefix}botrule
 
 
-══〘☬ 𝕀ℕ𝔽𝕆 𝔹ℝ𝔸𝕊ℍ𝕂𝕀𝔼𝔹𝕆𝕋 ☬〙═══
+ ══《☬ 𝕀ℕ𝔽𝕆 𝔹ℝ𝔸𝕊ℍ𝕂𝕀𝔼𝔹𝕆𝕋 ☬》═══
 > Informacion del BrashkieBot
-╠ _Registrados »_ ${rtotalreg}/${totalreg}
-╠ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
-╠ _${lenguajeGB['smsVersion']()}_ ➢ _${vs}_
-╠ _${lenguajeGB['smsMode']()} ➣_ _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
-╠ _${lenguajeGB['smsBanChats']()}_ ➣ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
+‖ _Registrados »_ ${rtotalreg}/${totalreg}
+‖ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
+‖ _${lenguajeGB['smsVersion']()}_ ➢ _${vs}_
+‖ _${lenguajeGB['smsMode']()} ➣_ _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
+‖ _${lenguajeGB['smsBanChats']()}_ ➣ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
 
 
-═══〘☬ _INFO DEL USER_ ☬〙═══
+ ═══《☬ 𝕀ℕ𝔽𝕆 𝕌𝕊𝔼ℝ ☬》═══
 > Informacion del usuario
-╠ _Tipo de registro »_ ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
-╠ _Estado »_ ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
-╠ _Registrado »_ ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
-╠ _${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} »_ ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
-╠ _${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} »_ ${role}
-╠ _${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
-╠ _${lenguajeGB['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🛐 ${lenguajeGB['smsResultPareja']()}*_`}
-╠ _Pasatiempo(s) 🍁 ${user.pasatiempo === 0 ? '*Sin Registro*_' : user.pasatiempo + '_'}
+‖ _Tipo de registro »_ ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
+‖ _Estado »_ ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
+‖ _Registrado »_ ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
+‖ _${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} »_ ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
+‖ _${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} »_ ${role}
+‖ _${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
+‖ _${lenguajeGB['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🛐 ${lenguajeGB['smsResultPareja']()}*_`}
+‖ _Pasatiempo(s) 🍁 ${user.pasatiempo === 0 ? '*Sin Registro*_' : user.pasatiempo + '_'}
 
 
-╭═══〘☬ _Recursos del user_ ☬〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _Experiencia ➟_ ${exp} ×͜×
-┃☭│ _Diamantes ➟_ ${limit} 💎
-┃☭│ _BrasCoins ➟_ ${money} ⫹⫺
-┃☭│ _Tokens ➟_ ${joincount} ✧
-┃☭╰───────────────
-╰═════════════════⊷
+ ══《☬ _Recursos del user_ ☬》═══
+> Recursos
+ ↳Experiencia ➟ ${exp} ×͜×
+ ↳Diamantes ➟ ${limit} 💎
+ ↳BrasCoins ➟ ${money} ⫹⫺
+ ↳Tokens ➟ ${joincount} ✧
 
 ${readMore}
 
-╭═══〘☬ _I N F O - B R A S H K I E_ ☬〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _${usedPrefix}cuentabrashkiebot | cuentasbb_
-┃☭│ _${usedPrefix}gruposbb | grupos | groupbb_
-┃☭│ _${usedPrefix}donar | donate_
-┃☭│ _${usedPrefix}listagrupos | grouplist_
-┃☭│ _${usedPrefix}estado | heybras | status_
-┃☭│ _${usedPrefix}infobras | infobot_
-┃☭│ _${usedPrefix}instalarbot | installbot_
-┃☭│ _${usedPrefix}creador | owner_      
-┃☭│ _${usedPrefix}velocidad | ping_      
-┃☭│ _términos y condiciones_
-┃☭│ _Bot_ 
-┃☭╰───────────────
-╰═════════════════⊷
+╔══《☬ INFO - BRASHKIE ☬》══
+║ _${usedPrefix}cuentabrashkiebot | cuentasbb_
+║ _${usedPrefix}gruposbb | grupos | groupbb_
+║ _${usedPrefix}donar | donate_
+║ _${usedPrefix}listagrupos | grouplist_
+║ _${usedPrefix}estado | heybras | status_
+║ _${usedPrefix}infobras | infobot_
+║ _${usedPrefix}instalarbot | installbot_
+║ _${usedPrefix}creador | owner_      
+║ _${usedPrefix}velocidad | ping_      
+║ _términos y condiciones_
+║ _Bot_
+╚═════════════════════════■■■■
 
-╭═══〘☬ _SUB BOT HEPEIN_ ☬〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _${usedPrefix}serbot | jadibot_
-┃☭│ _${usedPrefix}bots | listjadibots_
-┃☭│ _${usedPrefix}detener | stop_
-┃☭╰───────────────
-╰═══════════════════⊷
 
-╭═══〘☬ _REPORTES_ ☬〙═══⊷❍
-┃☭╭──────────────
-┃☭│ _${usedPrefix}reporte *texto*_
-┃☭│ _Haga un reporte_
-┃☭│ _en caso de una falla_
-┃☭│ _en algun comando_
-┃☭╰───────────────
-╰═════════════════⊷
+ ══《☬ _SUB BOT HEPEIN_ ☬》══
+> Ser subbot
+ ⮑${usedPrefix}serbot | jadibot
+ ⮑${usedPrefix}bots | listjadibots
+ ⮑${usedPrefix}detener | stop
+
+
+ ══《☬ _REPORTES_ ☬》══
+> Reportar al creador sobre problema del comando
+⮑${usedPrefix}reporte *texto*
+   Haga un reporte
+   en caso de una falla
+   en algun comando
+
 
 ╭═══〘☬ _User Premium_ ☬〙═══⊷❍
 ┃☭╭──────────────
