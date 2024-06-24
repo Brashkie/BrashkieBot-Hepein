@@ -97,36 +97,32 @@ let menu = `╭═══〘𖣐 _Hepein Bot_ 𖣐〙═══⊷❍
 ┃☭╰───────────────
 ╰═════════════════⊷
 
-╭════〘☬ _INFO HepeinBot BOT_ ☬〙════⊷❍
-┃☭│ 
-┃☭│ Regla del Bot
-┃☭│ _${usedPrefix}botrule_
-┃☭│
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
 
-╭════〘☬ _INFO HepeinBot BOT_ ☬〙════⊷❍
-┃
-┃☭│ ᩭ✎ _Registrados »_ ${rtotalreg}/${totalreg}
-┃☭│ ᩭ✎ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
-┃☭│ ᩭ✎ _${lenguajeGB['smsVersion']()}_ ➢ _${vs}_
-┃☭│ ᩭ✎ _${lenguajeGB['smsMode']()} ➣_ _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
-┃☭│ ᩭ✎ _${lenguajeGB['smsBanChats']()}_ ➣ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+══《☬ ℝ𝔼𝔾𝕃𝔸 ☬》══
+> Regla del Bot
+  ⮑${usedPrefix}botrule
 
-╭════〘☬ _INFO DEL USER_ ☬〙════⊷❍
 
-┃☭│ _Tipo de registro »_ ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
-┃☭│ _Estado »_ ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
-┃☭│ _Registrado »_ ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
-┃☭│ _${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} »_ ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
-┃☭│ _${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} »_ ${role}
-┃☭│ _${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
-┃☭│ _${lenguajeGB['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🛐 ${lenguajeGB['smsResultPareja']()}*_`}
-┃☭│ _Pasatiempo(s) 🍁 ${user.pasatiempo === 0 ? '*Sin Registro*_' : user.pasatiempo + '_'}
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+══〘☬ 𝕀ℕ𝔽𝕆 𝔹ℝ𝔸𝕊ℍ𝕂𝕀𝔼𝔹𝕆𝕋 ☬〙═══
+> Informacion del BrashkieBot
+╠ _Registrados »_ ${rtotalreg}/${totalreg}
+╠ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
+╠ _${lenguajeGB['smsVersion']()}_ ➢ _${vs}_
+╠ _${lenguajeGB['smsMode']()} ➣_ _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
+╠ _${lenguajeGB['smsBanChats']()}_ ➣ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
+
+
+═══〘☬ _INFO DEL USER_ ☬〙═══
+> Informacion del usuario
+╠ _Tipo de registro »_ ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
+╠ _Estado »_ ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
+╠ _Registrado »_ ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
+╠ _${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} »_ ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
+╠ _${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} »_ ${role}
+╠ _${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
+╠ _${lenguajeGB['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🛐 ${lenguajeGB['smsResultPareja']()}*_`}
+╠ _Pasatiempo(s) 🍁 ${user.pasatiempo === 0 ? '*Sin Registro*_' : user.pasatiempo + '_'}
+
 
 ╭═══〘☬ _Recursos del user_ ☬〙═══⊷❍
 ┃☭╭──────────────
@@ -606,24 +602,42 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭════〘☬ _Anime_ ☬〙════⊷❍
-┃☭│*Comandos de reacciones de anime*
-┃☭│────────────────────❍
-┃☭│ _${usedPrefix}pat1 *@tag*_ = *➡︎ acariciar*
-┃☭│ _${usedPrefix}slap1 *@tag*_ = *➡︎ bofatear*
-┃☭│ _${usedPrefix}punch1 *@tag*_ = *➡︎ golpear*
-┃☭│ _${usedPrefix}kiss1 *@tag*_ = *➡︎ besar*
-┃☭│ _${usedPrefix}food1_ = *➡︎ comer*
-┃☭│ _${usedPrefix}bite1 *@tag*_ = *➡︎ morder*
-┃☭│ _${usedPrefix}poke1 *@tag*_ = *➡︎ tocar*
-┃☭│ _${usedPrefix}hug1 *@tag*_ = *➡︎ abrazar*
-┃☭│ _${usedPrefix}feed1 *@tag*_ = *➡︎ alimetar*
-┃☭│ _${usedPrefix}kill1 *@tag*_ = *➡︎ matar*
-┃☭│ _${usedPrefix}sleep1_ = *➡︎ dormir*
-┃☭│ _${usedPrefix}happy1_ = *➡︎ alegrar*
-┃☭│ _${usedPrefix}sad1_ = *➡︎ llorar*
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+══〘☬ ANIME ☬〙═══
+> *Comandos de reacciones de anime*
+  ⮑${usedPrefix}pat1 *@tag*
+    ➡︎ acariciar
+  ⮑${usedPrefix}slap1 *@tag*
+    ➡︎ bofatear
+  ⮑${usedPrefix}punch1 *@tag*
+    ➡︎ golpear
+  ⮑${usedPrefix}kiss1 *@tag*
+    ➡︎ besar
+  ⮑${usedPrefix}food1
+    ➡︎ comer
+  ⮑${usedPrefix}bite1 *@tag*
+    ➡︎ morder
+  ⮑${usedPrefix}poke1 *@tag*
+    ➡︎ tocar
+  ⮑${usedPrefix}hug1 *@tag*
+    ➡︎ abrazar
+  ⮑${usedPrefix}feed1 *@tag*
+    ➡︎ alimetar
+  ⮑${usedPrefix}kill1 *@tag*
+    ➡︎ matar
+  ⮑${usedPrefix}sleep1
+    ➡︎ dormir
+  ⮑${usedPrefix}happy1
+    ➡︎ alegrar
+  ⮑${usedPrefix}sad1
+    ➡︎ llorar
+
+══〘☬ KPOP & BTS ☬〙═══
+> *Comandos de reacciones de BTS&KPOP*
+  ⮑${usedPrefix}kiss2 *@tag*
+    ➡︎ besar
+  ⮑${usedPrefix}dance
+    ➡︎ bailar
+
 
 ╭════〘☬ _Para Propietarios/Owners_ ☬〙════⊷❍
 ┃☭╭─────────────────────────❍
