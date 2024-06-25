@@ -124,12 +124,13 @@ let menu = `╭═══〘𖣐 _Hepein Bot_ 𖣐〙═══⊷❍
 ‖ _Pasatiempo(s) 🍁 ${user.pasatiempo === 0 ? '*Sin Registro*_' : user.pasatiempo + '_'}
 
 
- ══《☬ _Recursos del user_ ☬》═══
+ ══《☬ RECURSOS DE USER ☬》═══
 > Recursos
  ↳Experiencia ➟ ${exp} ×͜×
  ↳Diamantes ➟ ${limit} 💎
  ↳BrasCoins ➟ ${money} ⫹⫺
  ↳Tokens ➟ ${joincount} ✧
+╚═════════════════.✰.══════╝
 
 ${readMore}
 
@@ -153,6 +154,7 @@ ${readMore}
  ⮑${usedPrefix}serbot | jadibot
  ⮑${usedPrefix}bots | listjadibots
  ⮑${usedPrefix}detener | stop
+◈════════════════◈════════════════◈
 
 
  ══《☬ _REPORTES_ ☬》══
@@ -161,17 +163,18 @@ ${readMore}
    Haga un reporte
    en caso de una falla
    en algun comando
+◈════════════◈════════════◈
 
 
- ══〘☬ _User Premium_ ☬〙══
+ ══《☬ _User Premium_ ☬》══
 > Comandos de premium
  ⮑${usedPrefix}listapremium | listprem
  ⮑${usedPrefix}pase premium
  ⮑${usedPrefix}pass premium
+◈════════════════◈════════════════◈
 
 
-
- ══〘☬ _ENTRETENIMIENTO_ ☬〙═══
+ ══《☬ _ENTRETENIMIENTO_ ☬》═══
 > Comandos para divertir
  ⮑${usedPrefix}acertijo
  ⮑${usedPrefix}palabra | ordenar
@@ -218,48 +221,48 @@ ${readMore}
  ⮑${usedPrefix}juegos
  ⮑${usedPrefix}edufrase
  ⮑${usedPrefix}animes
+◈════════════════════◈════════════════════◈
 
-
- ══〘☬ *IA HEPEIN* ☬〙══
+ ══《☬ *IA HEPEIN* ☬》══
 > puedes buscar lo que deseas usando
  ⮑${usedPrefix}simi | ia *texto*
  ⮑${usedPrefix}alexa | siri | cortana *texto*
  ⮑${usedPrefix}simsimi | bixby *texto*
+◈════════════════◈════════════════◈
+
+ ══《☬ AJUSTES EN CHATS/GRUPOS ☬》═══
+> Puedes mejorar tu grupo con Hepein bot
+ ⮑${usedPrefix}on *:* off *bienvenida | welcome*
+ ⮑${usedPrefix}on *:* off *avisos | detect*
+ ⮑${usedPrefix}on *:* off *autonivel | autolevelup*
+ ⮑${usedPrefix}on *:* off *restringir | restrict*
+ ⮑${usedPrefix}on *:* off *antillamar | anticall*
+ ⮑${usedPrefix}on *:* off *publico | public*
+ ⮑${usedPrefix}on *:* off *autovisto | autoread*
+ ⮑${usedPrefix}on *:* off *temporal*
+ ⮑${usedPrefix}on *:* off *stickers*
+ ⮑${usedPrefix}on *:* off *autosticker*_
+ ⮑${usedPrefix}on *:* off *reacciones | reaction*
+ ⮑${usedPrefix}on *:* off *audios*
+ ⮑${usedPrefix}on *:* off *modocaliente | modohorny*
+ ⮑${usedPrefix}on *:* off *antitoxicos | antitoxic*
+ ⮑${usedPrefix}on *:* off *antiver | antiviewonce* 
+ ⮑${usedPrefix}on *:* off *antieliminar | antidelete*
+ ⮑${usedPrefix}on *:* off *antinternacional | antifake*
+ ⮑${usedPrefix}on *:* off *antienlace | antilink*
+ ⮑${usedPrefix}on *:* off *antienlace2 | antilink2*
+ ⮑${usedPrefix}on *:* off *antitiktok | antitk*
+ ⮑${usedPrefix}on *:* off *antiyoutube | antiyt*
+ ⮑${usedPrefix}on *:* off *antitelegram | antitel*
+ ⮑${usedPrefix}on *:* off *antifacebook | antifb*
+ ⮑${usedPrefix}on *:* off *antinstagram | antig*
+ ⮑${usedPrefix}on *:* off *antitwitter | antitw*
+ ⮑${usedPrefix}on *:* off *soloprivados | pconly*
+ ⮑${usedPrefix}on *:* off *sologrupos | gconly*
+◈════════════════════◈════════════════════◈
 
 
-╭════〘☬ AJUSTES EN CHATS/GRUPOS ☬〙════⊷❍
-│ _Puedes mejorar tu grupo con Hepein bot_
-┃☭│ _${usedPrefix}on *:* off *bienvenida | welcome*_
-┃☭│ _${usedPrefix}on *:* off *avisos | detect*_
-┃☭│ _${usedPrefix}on *:* off *autonivel | autolevelup*_
-┃☭│ _${usedPrefix}on *:* off *restringir | restrict*_
-┃☭│ _${usedPrefix}on *:* off *antillamar | anticall*_
-┃☭│ _${usedPrefix}on *:* off *publico | public*_
-┃☭│ _${usedPrefix}on *:* off *autovisto | autoread*_
-┃☭│ _${usedPrefix}on *:* off *temporal*_
-┃☭│ _${usedPrefix}on *:* off *stickers*_
-┃☭│ _${usedPrefix}on *:* off *autosticker*_
-┃☭│ _${usedPrefix}on *:* off *reacciones | reaction*_
-┃☭│ _${usedPrefix}on *:* off *audios*_
-┃☭│ _${usedPrefix}on *:* off *modocaliente | modohorny*_
-┃☭│ _${usedPrefix}on *:* off *antitoxicos | antitoxic*_
-┃☭│ _${usedPrefix}on *:* off *antiver | antiviewonce*_ 
-┃☭│ _${usedPrefix}on *:* off *antieliminar | antidelete*_ 
-┃☭│ _${usedPrefix}on *:* off *antinternacional | antifake*_
-┃☭│ _${usedPrefix}on *:* off *antienlace | antilink*_
-┃☭│ _${usedPrefix}on *:* off *antienlace2 | antilink2*_
-┃☭│ _${usedPrefix}on *:* off *antitiktok | antitk*_
-┃☭│ _${usedPrefix}on *:* off *antiyoutube | antiyt*_
-┃☭│ _${usedPrefix}on *:* off *antitelegram | antitel*_
-┃☭│ _${usedPrefix}on *:* off *antifacebook | antifb*_
-┃☭│ _${usedPrefix}on *:* off *antinstagram | antig*_
-┃☭│ _${usedPrefix}on *:* off *antitwitter | antitw*_
-┃☭│ _${usedPrefix}on *:* off *soloprivados | pconly*_
-┃☭│ _${usedPrefix}on *:* off *sologrupos | gconly*_
-┃☭╰─────────────────❍
-╰══════════════════════════⊷
-
-╭════〘☬ _DESCARGAS_ ☬〙════⊷❍
+╭════《☬ _DESCARGAS_ ☬》════⊷❍
 │   │
 ┃☭│ _${usedPrefix}imagen | image *texto*_
 ┃☭│ _${usedPrefix}pinterest | dlpinterest *texto*_
@@ -597,31 +600,32 @@ ${readMore}
 ══〘☬ ANIME ☬〙═══
 > *Comandos de reacciones de anime*
   ⮑${usedPrefix}pat1 *@tag*
-    ➡︎ acariciar
+    ➠ acariciar
   ⮑${usedPrefix}slap1 *@tag*
-    ➡︎ bofatear
+    ➠ bofatear
   ⮑${usedPrefix}punch1 *@tag*
-    ➡︎ golpear
+    ➠ golpear
   ⮑${usedPrefix}kiss1 *@tag*
-    ➡︎ besar
+    ➠ besar
   ⮑${usedPrefix}food1
-    ➡︎ comer
+    ➠ comer
   ⮑${usedPrefix}bite1 *@tag*
-    ➡︎ morder
+    ➠ morder
   ⮑${usedPrefix}poke1 *@tag*
-    ➡︎ tocar
+    ➠ tocar
   ⮑${usedPrefix}hug1 *@tag*
-    ➡︎ abrazar
+    ➠ abrazar
   ⮑${usedPrefix}feed1 *@tag*
-    ➡︎ alimetar
+    ➠ alimetar
   ⮑${usedPrefix}kill1 *@tag*
-    ➡︎ matar
+    ➠ matar
   ⮑${usedPrefix}sleep1
     ➡︎ dormir
   ⮑${usedPrefix}happy1
     ➡︎ alegrar
   ⮑${usedPrefix}sad1
     ➡︎ llorar
+◈═════════════◈═════════════◈
 
 ══〘☬ KPOP & BTS ☬〙═══
 > *Comandos de reacciones de BTS&KPOP*
@@ -629,40 +633,40 @@ ${readMore}
     ➡︎ besar
   ⮑${usedPrefix}dance
     ➡︎ bailar
+◈═════════════◈═════════════◈
 
-
-╭════〘☬ _Para Propietarios/Owners_ ☬〙════⊷❍
-┃☭╭─────────────────────────❍
-┃☭│ _${usedPrefix}join *enlace*_
-┃☭│ _${usedPrefix}unete *enlace*_
-┃☭│ _${usedPrefix}dardiamantes *cantidad*_
-┃☭│ _${usedPrefix}darxp *cantidad*_
-┃☭│ _${usedPrefix}darkatacoins *cantidad*_ 
-┃☭│ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
-┃☭│ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
-┃☭│ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
-┃☭│ _${usedPrefix}addprem4 | userpremium4 *@tag* *cantidad*_
-┃☭│ _${usedPrefix}idioma | language_
-┃☭│ _${usedPrefix}cajafuerte_
-┃☭│ _${usedPrefix}comunicar | broadcastall | bc *texto*_
-┃☭│ _${usedPrefix}broadcastchats | bcc *texto*_
-┃☭│ _${usedPrefix}comunicarpv *texto*_
-┃☭│ _${usedPrefix}broadcastgc *texto*_ 
-┃☭│ _${usedPrefix}comunicargrupos *texto*_
-┃☭│ _${usedPrefix}borrartmp | cleartmp_
-┃☭│ _${usedPrefix}delexp *@tag*_
-┃☭│ _${usedPrefix}delkatacoins *@tag*_
-┃☭│ _${usedPrefix}deldiamantes *@tag*_
-┃☭│ _${usedPrefix}reiniciar | restart_
-┃☭│ _${usedPrefix}ctualizar | update_
-┃☭│ _${usedPrefix}addprem | +prem *@tag*_
-┃☭│ _${usedPrefix}delprem | -prem *@tag*_
-┃☭│ _${usedPrefix}listapremium | listprem_
-┃☭│ _${usedPrefix}añadirdiamantes *@tag cantidad*_
-┃☭│_${usedPrefix}añadirxp *@tag cantidad*_
-┃☭│ _${usedPrefix}añadirkatacoins *@tag cantidad*_
-┃☭╰─────────────────❍
-╰══════════════════⊷❍`.trim()
+ ═══〘☬ _Para Propietarios/Owners_ ☬〙═══
+> Para propietarios y grupos
+ ⮑${usedPrefix}join *enlace*
+ ⮑${usedPrefix}unete *enlace*
+ ⮑${usedPrefix}dardiamantes *cantidad*
+ ⮑${usedPrefix}darxp *cantidad*
+ ⮑${usedPrefix}darkatacoins *cantidad* 
+ ⮑${usedPrefix}addprem | userpremium *@tag* *cantidad*
+ ⮑${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*
+ ⮑${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*
+ ⮑${usedPrefix}addprem4 | userpremium4 *@tag* *cantidad*
+ ⮑${usedPrefix}idioma | language
+ ⮑${usedPrefix}cajafuerte
+ ⮑${usedPrefix}comunicar | broadcastall | bc *texto*
+ ⮑${usedPrefix}broadcastchats | bcc *texto*
+ ⮑${usedPrefix}comunicarpv *texto*
+ ⮑${usedPrefix}broadcastgc *texto* 
+ ⮑${usedPrefix}comunicargrupos *texto*
+ ⮑${usedPrefix}borrartmp | cleartmp
+ ⮑${usedPrefix}delexp *@tag*
+ ⮑${usedPrefix}delkatacoins *@tag*
+ ⮑${usedPrefix}deldiamantes *@tag*
+ ⮑${usedPrefix}reiniciar | restart
+ ⮑${usedPrefix}ctualizar | update
+ ⮑${usedPrefix}addprem | +prem *@tag*
+ ⮑${usedPrefix}delprem | -prem *@tag*
+ ⮑${usedPrefix}listapremium | listprem
+ ⮑${usedPrefix}añadirdiamantes *@tag cantidad*
+ ⮑${usedPrefix}añadirxp *@tag cantidad*
+ ⮑${usedPrefix}añadirkatacoins *@tag cantidad*
+◈════════════════════◈════════════════════◈
+`.trim()
 const vi = ['https://telegra.ph/file/578261f3a5c1820d753c0.mp4',
 'https://telegra.ph/file/fb6797f20e3c14312a6ed.mp4',
 'https://telegra.ph/file/f6379d1afb78a2b371e3e.mp4']
