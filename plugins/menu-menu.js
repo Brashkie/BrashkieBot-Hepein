@@ -262,7 +262,7 @@ ${readMore}
 ◈═════════════◈═════════════◈
 
 
-╭════《☬ _DESCARGAS_ ☬》════⊷❍
+ ══《☬ _DESCARGAS_ ☬》════⊷❍
 > Podras descargar
  ⮑${usedPrefix}imagen | image *texto*
  ⮑${usedPrefix}pinterest | dlpinterest *texto*
@@ -294,7 +294,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
 
-╭═══〘☬ _Chat Anonimo_ ☬〙═══⊷❍
+ ══〘☬ _Chat Anonimo_ ☬〙═══⊷❍
 > Podras enviar mensajes a otra persona usando a HepeinBot
  ⮑${usedPrefix}chatanonimo | anonimochat
  ⮑${usedPrefix}anonimoch
@@ -304,7 +304,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
  
-══〘☬ _Grupos_ ☬〙══
+ ══〘☬ _Grupos_ ☬〙══
 > Comandos para grupos
  ⮑${usedPrefix}add *numero*
  ⮑${usedPrefix}sacar | ban | kick  *@tag*
@@ -341,7 +341,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
  
-══〘☬ PAREJAS ☬〙══
+ ══〘☬ PAREJAS ☬〙══
 > Ver parejas o unir
  ⮑${usedPrefix}listaparejas | listship
  ⮑${usedPrefix}mipareja | mylove
@@ -352,7 +352,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
  
-══〘☬ VOTACIONES EN GRUPOS ☬〙══
+ ══〘☬ VOTACIONES EN GRUPOS ☬〙══
 > Votar o apoyar al bot
  ⮑${usedPrefix}crearvoto | startvoto *texto* 
  ⮑${usedPrefix}sivotar | upvote 
@@ -362,13 +362,13 @@ ${readMore}
 ◈════════════◈════════════◈
 
  
-══〘☬ COMANDOS +18 ☬〙═══
+ ══〘☬ COMANDOS +18 ☬〙═══
 > Ver menu para mayores de 18
  ⮑${usedPrefix}hornymenu 
 ◈════════════◈════════════◈
 
  
-══〘☬ CONVERTIDORES ☬〙══
+ ══〘☬ CONVERTIDORES ☬〙══
 > Convertirlo cualquier archivo
  ⮑${usedPrefix}toimg | img | jpg *sticker* 
  ⮑${usedPrefix}toanime | jadianime *foto*
@@ -385,10 +385,10 @@ ${readMore}
 > Ver logos o menu
  ⮑${usedPrefix}logos *efecto texto*
  ⮑${usedPrefix}menulogos2
-◈════════════◈════════════◈
+◈═════════◈═════════◈
 
 
-══〘☬ OTROS ☬〙══
+ ══〘☬ OTROS ☬〙══
 > Ver otros comandos
  ⮑${usedPrefix}simpcard *@tag*
  ⮑${usedPrefix}hornycard *@tag*
@@ -397,10 +397,10 @@ ${readMore}
  ⮑${usedPrefix}itssostupid
  ⮑${usedPrefix}pixelar
  ⮑${usedPrefix}blur
-◈════════════◈════════════◈
+◈═════════◈═════════◈
 
 
-══〘☬ IMGNS ANIME Y MAS ☬〙══
+ ══〘☬ IMGNS ANIME Y MAS ☬〙══
 > Ver imagenes los personajes o otros
  ⮑${usedPrefix}chica 
  ⮑${usedPrefix}chico
@@ -455,7 +455,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
 
-══〘☬ MODIFICAR AUDIOS ☬〙══
+ ══〘☬ MODIFICAR AUDIOS ☬〙══
 > Modificar audio
  ⮑${usedPrefix}bass
  ⮑${usedPrefix}blown
@@ -472,7 +472,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
 
-══〘☬ BUSQUEDAS ☬〙══
+ ══〘☬ BUSQUEDAS ☬〙══
 > Buscar texto
  ⮑${usedPrefix}animeinfo *texto*_
  ⮑${usedPrefix}mangainfo *texto*_
@@ -483,13 +483,13 @@ ${readMore}
 ◈════════════◈════════════◈
 
 
-══〘☬ MENU AUDIOS ☬〙══
+ ══〘☬ MENU AUDIOS ☬〙══
 > Menu de audios
  ⮑${usedPrefix}audios
 ◈════════════◈════════════◈
 
 
-═══〘☬ HERRAMIENTAS ☬〙═══
+ ═══〘☬ HERRAMIENTAS ☬〙═══
 > Herramientas para el miembro
  ⮑${usedPrefix}afk *motivo*
  ⮑${usedPrefix}acortar *url*
@@ -507,7 +507,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
 
-══〘☬ RPG SUBIR DE NIVEL ☬〙══
+ ══〘☬ RPG SUBIR DE NIVEL ☬〙══
 > Para ser Pro o subir de nivel
  ⮑${usedPrefix}botemporal *enlace* *cantidad*
  ⮑${usedPrefix}addbot *enlace* *cantidad*
@@ -555,7 +555,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
 
-═══〘☬ STICKER ☬〙═══
+ ══〘☬ STICKER ☬〙══
 > Comandos de sticker
  ⮑${usedPrefix}sticker | s *imagen o video*
  ⮑${usedPrefix}sticker | s *url de tipo jpg*
@@ -577,7 +577,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
 
-══〘☬ EDITAR STICKERS ☬〙══
+ ══〘☬ EDITAR STICKERS ☬〙══
 > Edicion de sticker
  ⮑${usedPrefix}wm *packname|author*
  ⮑${usedPrefix}wm *texto1|texto2*
@@ -594,7 +594,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
 
-══〘☬ ANIME ☬〙═══
+ ══〘☬ ANIME ☬〙═══
 > *Comandos de reacciones de anime*
   ⮑${usedPrefix}pat1 *@tag*
     ➠ acariciar
@@ -631,7 +631,7 @@ ${readMore}
 ◈═════════════◈═════════════◈
 
 
-══〘☬ KPOP & BTS ☬〙═══
+ ══〘☬ KPOP & BTS ☬〙═══
 > *Comandos de reacciones de BTS&KPOP*
   ⮑${usedPrefix}kiss2 *@tag*
     ➠ besar
@@ -642,7 +642,7 @@ ${readMore}
 ◈═════════════◈═════════════◈
 
 
- ═══〘☬ PARA PROPIETARIOS/GRUPOS ☬〙═══
+ ══〘☬ PARA PROPIETARIOS/GRUPOS ☬〙══
 > Para propietarios y grupos
  ⮑${usedPrefix}join *enlace*
  ⮑${usedPrefix}unete *enlace*
