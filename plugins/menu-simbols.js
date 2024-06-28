@@ -14,32 +14,43 @@ import path from 'path'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, participants, groupMetadata, text, command }) => {
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let toUser = `${m.sender.split("@")[0]}`
-    let menu = `@${toUser}
+    let menu = `Hola @${toUser}
 ◢◤𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗺𝗲𝗻𝘂 𝗱𝗲 𝘀𝗶𝗺𝗯𝗼𝗹𝗼𝘀◢◤
 
 ════════════ ∘◦❁◦∘ ════════════
 ${usedPrefix}simbpopular
 > Para ver los símbolos Populares
+
 ${usedPrefix}simbcommon
 > Para ver los símbolos Comunes
+
 ${usedPrefix}simbtype
 > Para ver los símbolos Tipograficos
+
 ${usedPrefix}simbpeople
 > Para ver los símbolos De Personas
+
 ${usedPrefix}simbanimal
 > Para ver los símbolos Animales
+
 ${usedPrefix}simbasterik
 > Para ver los símbolos De Astericos
+
 ${usedPrefix}simbarrow
 > Para ver los símbolos De Flecha
+
 ${usedPrefix}simbgrafic
 > Para ver los símbolos Gráfico
+
 ${usedPrefix}simbmate
 > Para ver los símbolos De Matemáticos
+
 ${usedPrefix}simblen
 > Para ver los símbolos De Lenguaje
+
 ${usedPrefix}simbmoney
 > Para ver los símbolos De Moneda
+
 ════════════ ∘◦❁◦∘ ════════════
     `
     const vi = ['https://telegra.ph/file/b06893bd99f508e13f9ba.mp4']
@@ -47,7 +58,7 @@ ${usedPrefix}simbmoney
     await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, who] })
 }
 
-handler.command = handler.help = ['spsymbols']
+handler.command = handler.help = ['msimbols']
 handler.tags = ['simbols']
 export default handler
 
