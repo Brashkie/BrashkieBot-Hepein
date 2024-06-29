@@ -55,8 +55,74 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, participants, groupM
         ]
             
         await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true,caption: menu, mentions: [m.sender, who] })}
+
+    if (command==='dance1'){
+        let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+        let toUser = `${m.sender.split("@")[0]}`
+        let menu = `@${toUser} está bailando`
+        const vi = ['https://telegra.ph/file/af52d627212aa775600d4.mp4',
+            'https://telegra.ph/file/88bb9d4ad66973b18a0dc.mp4',
+            'https://telegra.ph/file/8ff335bca57d9a452ba31.mp4',
+            'https://telegra.ph/file/b9959234795b7910d8ae2.mp4',
+            'https://telegra.ph/file/35b5e53abe29b24c73bcb.mp4',
+            'https://telegra.ph/file/32f071123a1490206ff68.mp4',
+            'https://telegra.ph/file/0873f961a08424757c92c.mp4',
+            'https://telegra.ph/file/2c10005b1fd30f04c7805.mp4',
+            'https://telegra.ph/file/a556274a79e03ed64c8f1.mp4',
+            'https://telegra.ph/file/fc592b86532def2c5ad5a.mp4',
+            'https://telegra.ph/file/c52da69241c506e44611f.mp4',
+            'https://telegra.ph/file/a7331ca535b5bf65bee62.mp4',
+            'https://telegra.ph/file/8d350d90d05ab43dc37e8.mp4',
+            'https://telegra.ph/file/6e1d41507887bc2de0b52.mp4',
+            'https://telegra.ph/file/81b9c9a11524d1cae6ce6.mp4',
+            'https://telegra.ph/file/e524b9ab2aafb14af13a5.mp4',
+            'https://telegra.ph/file/d7b364515461bf810ca10.mp4',
+            'https://telegra.ph/file/665be4c1549f45fd586af.mp4'
+        ]
+            
+        await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true,caption: menu, mentions: [m.sender, who] })}
+
+    if (command==='scared1'){
+        let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+        let toUser = `${m.sender.split("@")[0]}`
+        let menu = `@${toUser} está asustado 😧`
+        const vi = ['https://telegra.ph/file/a5c132069537f01942cc0.mp4',
+            'https://telegra.ph/file/9f38725a4096d4e4362b5.mp4',
+            'https://telegra.ph/file/c3a61d4b84817e8c6148c.mp4',
+            'https://telegra.ph/file/057421cdba6d4e812b6ce.mp4',
+            'https://telegra.ph/file/6ac588c89b6f3a241ffb9.mp4',
+            'https://telegra.ph/file/c9bfdc4f6d0e2b84b8a3c.mp4',
+            'https://telegra.ph/file/8f067f045e87b2672cfb4.mp4',
+            'https://telegra.ph/file/07283af2850808204db73.mp4',
+            'https://telegra.ph/file/f6196d49dc9ba9b2c7086.mp4',
+            'https://telegra.ph/file/62e666bbcca2e565c44f2.mp4',
+            'https://telegra.ph/file/3e4da8e8854526e5d0452.mp4',
+            'https://telegra.ph/file/2ad89796c7b98351c589c.mp4'
+        ]
+            
+        await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true,caption: menu, mentions: [m.sender, who] })}
+
+    if (command==='sleep1'){
+        let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+        let toUser = `${m.sender.split("@")[0]}`
+        let menu = `@${toUser} se fue a dormir`
+        const vi = ['https://telegra.ph/file/27d6d9e548a8f6753870a.mp4',
+            'https://telegra.ph/file/f5c25815aa41380eb7f7c.mp4',
+            'https://telegra.ph/file/f8ebd8ddd155bb4e3332b.mp4'
+        ]
+        
+        await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, who] })}
+
+    if (command==='code'){
+        let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+        let toUser = `${m.sender.split("@")[0]}`
+        let menu = `@${toUser} està programando`
+        const vi = ['https://telegra.ph/file/0f60b734d84525f913191.mp4'
+        ]
+        
+        await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, who] })}
 }
 
-handler.command = handler.help = ['bath1','angry1','greep1']
+handler.command = handler.help = ['bath1','angry1','greep1','scared1','dance1','sleep1','code']
 handler.tags = ['anime']
 export default handler
