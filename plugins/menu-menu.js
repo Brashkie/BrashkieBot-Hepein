@@ -185,6 +185,12 @@ ${readMore}
  ⮑${usedPrefix}tictactoe | ttt *sala*
  ⮑${usedPrefix}deltictactoe | delttt
  ⮑${usedPrefix}topgays
+ ⮑${usedPrefix}toptonto
+ ⮑${usedPrefix}tophorribles
+ ⮑${usedPrefix}topfiel
+ ⮑${usedPrefix}tophacker
+ ⮑${usedPrefix}topvirgen
+ ⮑${usedPrefix}topinfiel
  ⮑${usedPrefix}topotakus
  ⮑${usedPrefix}topcallados
  ⮑${usedPrefix}tophacker
@@ -198,7 +204,8 @@ ${readMore}
  ⮑${usedPrefix}toplindos | toplind@s 
  ⮑${usedPrefix}topfamosos | topfamos@s
  ⮑${usedPrefix}topparejas | top5parejas 
- ⮑${usedPrefix}gay | gay *@tag* 
+ ⮑${usedPrefix}gay | gay *@tag*
+ ⮑${usedPrefix}calzon *@tag*
  ⮑${usedPrefix}gay2 *nombre : @tag*
  ⮑${usedPrefix}lesbiana *nombre : @tag*
  ⮑${usedPrefix}manca *nombre : @tag*
@@ -262,7 +269,7 @@ ${readMore}
 ◈═════════════◈═════════════◈
 
 
- ══《☬ _DESCARGAS_ ☬》════⊷❍
+ ══《☬ _DESCARGAS_ ☬》═══
 > Podras descargar
  ⮑${usedPrefix}imagen | image *texto*
  ⮑${usedPrefix}pinterest | dlpinterest *texto*
@@ -294,7 +301,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
 
- ══〘☬ _Chat Anonimo_ ☬〙═══⊷❍
+ ══《☬ _Chat Anonimo_ ☬》═══⊷❍
 > Podras enviar mensajes a otra persona usando a HepeinBot
  ⮑${usedPrefix}chatanonimo | anonimochat
  ⮑${usedPrefix}anonimoch
@@ -304,7 +311,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
  
- ══〘☬ _Grupos_ ☬〙══
+ ══《☬ _Grupos_ ☬》══
 > Comandos para grupos
  ⮑${usedPrefix}add *numero*
  ⮑${usedPrefix}sacar | ban | kick  *@tag*
@@ -338,10 +345,10 @@ ${readMore}
  ⮑${usedPrefix}nuevoenlace | resetlink
  ⮑${usedPrefix}on
  ⮑${usedPrefix}off  
-◈════════════◈════════════◈
+◈═════════◈═════════◈
 
  
- ══〘☬ PAREJAS ☬〙══
+ ══《☬ PAREJAS ☬》══
 > Ver parejas o unir
  ⮑${usedPrefix}listaparejas | listship
  ⮑${usedPrefix}mipareja | mylove
@@ -349,26 +356,26 @@ ${readMore}
  ⮑${usedPrefix}aceptar | accept *@tag*
  ⮑${usedPrefix}rechazar | decline *@tag*
  ⮑${usedPrefix}terminar | finish *@tag*
-◈════════════◈════════════◈
+◈════════◈════════◈
 
  
- ══〘☬ VOTACIONES EN GRUPOS ☬〙══
+ ══《☬ VOTACIONES EN GRUPOS ☬》══
 > Votar o apoyar al bot
  ⮑${usedPrefix}crearvoto | startvoto *texto* 
  ⮑${usedPrefix}sivotar | upvote 
  ⮑${usedPrefix}novotar | devote 
  ⮑${usedPrefix}vervotos | cekvoto
  ⮑${usedPrefix}delvoto | deletevoto 
-◈════════════◈════════════◈
+◈═══════════◈═══════════◈
 
  
- ══〘☬ COMANDOS +18 ☬〙═══
+ ══《☬ COMANDOS +18 ☬》═══
 > Ver menu para mayores de 18
  ⮑${usedPrefix}hornymenu 
-◈════════════◈════════════◈
+◈═══════════◈═══════════◈
 
  
- ══〘☬ CONVERTIDORES ☬〙══
+ ══《☬ CONVERTIDORES ☬》══
 > Convertirlo cualquier archivo
  ⮑${usedPrefix}toimg | img | jpg *sticker* 
  ⮑${usedPrefix}toanime | jadianime *foto*
@@ -378,17 +385,17 @@ ${readMore}
  ⮑${usedPrefix}tourl *video, imagen*
  ⮑${usedPrefix}toenlace  *video, imagen o audio*
  ⮑${usedPrefix}tts es *texto*
-◈════════════◈════════════◈
+◈═══════════◈═══════════◈
 
  
-══〘☬ OTHERS ☬〙══
+ ══《☬ OTHERS ☬》══
 > Ver logos o menu
  ⮑${usedPrefix}logos *efecto texto*
  ⮑${usedPrefix}menulogos2
-◈═════════◈═════════◈
+◈════════◈════════◈
 
 
- ══〘☬ OTROS ☬〙══
+ ══《☬ OTROS ☬》══
 > Ver otros comandos
  ⮑${usedPrefix}simpcard *@tag*
  ⮑${usedPrefix}hornycard *@tag*
@@ -397,10 +404,10 @@ ${readMore}
  ⮑${usedPrefix}itssostupid
  ⮑${usedPrefix}pixelar
  ⮑${usedPrefix}blur
-◈═════════◈═════════◈
+◈════════◈════════◈
 
 
- ══〘☬ IMGNS ANIME Y MAS ☬〙══
+ ══《☬ IMGNS ANIME Y MAS ☬》══
 > Ver imagenes los personajes o otros
  ⮑${usedPrefix}chica 
  ⮑${usedPrefix}chico
@@ -452,10 +459,10 @@ ${readMore}
  ⮑${usedPrefix}sasuke
  ⮑${usedPrefix}sakura
  ⮑${usedPrefix}cosplay
-◈════════════◈════════════◈
+◈═══════════◈═══════════◈
 
 
- ══〘☬ MODIFICAR AUDIOS ☬〙══
+ ══《☬ MODIFICAR AUDIOS ☬》══
 > Modificar audio
  ⮑${usedPrefix}bass
  ⮑${usedPrefix}blown
@@ -469,10 +476,10 @@ ${readMore}
  ⮑${usedPrefix}slow
  ⮑${usedPrefix}smooth
  ⮑${usedPrefix}tupai
-◈════════════◈════════════◈
+◈═══════════◈═══════════◈
 
 
- ══〘☬ BUSQUEDAS ☬〙══
+ ══《☬ BUSQUEDAS ☬》══
 > Buscar texto
  ⮑${usedPrefix}animeinfo *texto*_
  ⮑${usedPrefix}mangainfo *texto*_
@@ -480,16 +487,16 @@ ${readMore}
  ⮑${usedPrefix}letra | lirik *texto*_
  ⮑${usedPrefix}ytsearch | yts *texto*_
  ⮑${usedPrefix}wiki | wikipedia *texto*_
-◈════════════◈════════════◈
+◈═════════◈═════════◈
 
 
- ══〘☬ MENU AUDIOS ☬〙══
+ ══《☬ MENU AUDIOS ☬》══
 > Menu de audios
  ⮑${usedPrefix}audios
-◈════════════◈════════════◈
+◈══════════◈══════════◈
 
 
- ═══〘☬ HERRAMIENTAS ☬〙═══
+ ══《☬ HERRAMIENTAS ☬》═══
 > Herramientas para el miembro
  ⮑${usedPrefix}afk *motivo*
  ⮑${usedPrefix}acortar *url*
@@ -504,10 +511,10 @@ ${readMore}
  ⮑${usedPrefix}morse decodificar *morse*
  ⮑${usedPrefix}encuesta | poll *Motivo*
  ⮑${usedPrefix}horario
-◈════════════◈════════════◈
+◈═══════════◈═══════════◈
 
 
- ══〘☬ RPG SUBIR DE NIVEL ☬〙══
+ ══《☬ RPG SUBIR DE NIVEL ☬》══
 > Para ser Pro o subir de nivel
  ⮑${usedPrefix}botemporal *enlace* *cantidad*
  ⮑${usedPrefix}addbot *enlace* *cantidad*
@@ -549,13 +556,13 @@ ${readMore}
 ◈════════════◈════════════◈
 
 
-══〘☬ TABLA DE CALSIFICACION ☬〙══
+ ══《☬ TABLA DE CALSIFICACION ☬》══
 > Ver tops de los miembros
  ⮑${usedPrefix}top | lb | leaderboard
-◈════════════◈════════════◈
+◈══════════◈══════════◈
 
 
- ══〘☬ STICKER ☬〙══
+ ══《☬ STICKER ☬》═══
 > Comandos de sticker
  ⮑${usedPrefix}sticker | s *imagen o video*
  ⮑${usedPrefix}sticker | s *url de tipo jpg*
@@ -574,17 +581,17 @@ ${readMore}
  ⮑${usedPrefix}stickermarker *efecto : responder a imagen* 
  ⮑${usedPrefix}stickerfilter *efecto : responder a imagen* 
  ⮑${usedPrefix}cs *:* cs2
-◈════════════◈════════════◈
+◈═════════◈═════════◈
 
 
- ══〘☬ EDITAR STICKERS ☬〙══
+ ══《☬ EDITAR STICKERS ☬》══
 > Edicion de sticker
  ⮑${usedPrefix}wm *packname|author*
  ⮑${usedPrefix}wm *texto1|texto2*
 ◈════════════◈════════════◈
 
 
-══〘☬ ACCIONES CON STICKER ☬〙═══
+ ══《☬ ACCIONES CON STICKER ☬》═══
 > *Comandos de reacciones con sticker*
  ⮑${usedPrefix}palmaditas | pat *@tag*
  ⮑${usedPrefix}bofetada | slap *@tag*
@@ -594,7 +601,7 @@ ${readMore}
 ◈════════════◈════════════◈
 
 
- ══〘☬ ANIME ☬〙═══
+ ══《☬ ANIME ☬》═══
 > *Comandos de reacciones de anime*
   ⮑${usedPrefix}pat1 *@tag*
     ➠ acariciar
@@ -628,10 +635,10 @@ ${readMore}
     ➠ bañar
   ⮑${usedPrefix}code
     ➠ programar
-◈═════════════◈═════════════◈
+◈════════◈════════◈
 
 
- ══〘☬ KPOP & BTS ☬〙═══
+ ══《☬ KPOP & BTS ☬》═══
 > *Comandos de reacciones de BTS&KPOP*
   ⮑${usedPrefix}kiss2 *@tag*
     ➠ besar
@@ -639,10 +646,10 @@ ${readMore}
     ➠ bailar
   ⮑${usedPrefix}hug2 *@tag*
     ➠ abrazar
-◈═════════════◈═════════════◈
+◈═══════════◈═══════════◈
 
 
- ══〘☬ PARA PROPIETARIOS/GRUPOS ☬〙══
+ ══《☬ PARA PROPIETARIOS ☬》══
 > Para propietarios y grupos
  ⮑${usedPrefix}join *enlace*
  ⮑${usedPrefix}unete *enlace*
