@@ -22,5 +22,6 @@ throw `${lenguajeGB.smsAvisoFG()}${mid.smsconvert2}`
 }}}}
 handler.help = ['toanime'];
 handler.tags = ['tools'];
+handler.register = true
 handler.command = /^(jadianime|toanime)$/i;
 export default handler;
