@@ -12,10 +12,13 @@ global.canales = [canal1, canal2, canal3, canal4].getRandom()
 global.welgata = [tk, ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb, tk, ths, asistencia].getRandom()
 global.redesMenu = [canal1, canal2, canal3, canal4, soporteGB, grupo1, grupo2, grupo3, grupo4, grupo5, grupo6, md, ig, paypal, yt, asistencia, fb, tk].getRandom()
 global.accountsgb = [canal1, canal2, canal3, canal4, tk, ig, yt, paypal, fb, ths, md, asistencia].getRandom()
+//global.namechannel = '𒅒𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗡𝗮𝗿𝗶𝘂𝗿 𝗭𝗲𝗶𝘁𝘀𝗶 𝗨𝘃𝗲𝗿𝘀𝗶𒅒'
+//nn12345="https://whatsapp.com/channel/0029Va8t5DZ9cDDU8ntWVJ2n"
 
 global.canalIdGB = ["120363178367665133@newsletter", "120363178367665133@newsletter", "120363178367665133@newsletter", "120363178367665133@newsletter"]
 global.canalNombreGB = ["𒅒𖣐 Brashkie Zeitsi 𖣐𒅒", "𒅒𖣐 Brashkie Zeitsi 𖣐𒅒", "𒅒𖣐 Brashkie Zeitsi 𖣐𒅒", "𒅒𖣐 Brashkie Zeitsi 𖣐𒅒"]
 global.channelRD = await getRandomChannel()
+
 
 // Imágenes 
 global.imagen1 = fs.readFileSync("./media/menus/Menu3.jpg")
@@ -31,6 +34,7 @@ global.imagen10 = fs.readFileSync("./media/menus/img9.jpg")
 global.imagen11 = fs.readFileSync("./media/menus/img10.jpg")
 global.imagen12 = fs.readFileSync("./media/menus/img11.jpg")
 global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
+global.imagen14 = fs.readFileSync("./media/menus/img13.jpg")
 
 global.img = 'https://telegra.ph/file/34ca2bf7d84668a682a93.jpg'
 global.img2 = 'https://telegra.ph/file/34ca2bf7d84668a682a93.jpg'
@@ -65,8 +69,19 @@ global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7,
 // Fake
 global.fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
+/*global.channelRD = {
+  id: '0029Va8t5DZ9cDDU8ntWVJ2n',
+  name: '𒅒𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗡𝗮𝗿𝗶𝘂𝗿 𝗭𝗲𝗶𝘁𝘀𝗶 𝗨𝘃𝗲𝗿𝘀𝗶𒅒'
+};*/
+
 global.fakeChannel = { contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: '', newsletterName: channelRD.name }, externalAdReply: { title: wm, body: vs, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: gataImg, thumbnail: imagen1, sourceUrl: accountsgb }}}, { quoted: m }
-  
+
+global.canaloficial={ contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `𒅒𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗡𝗮𝗿𝗶𝘂𝗿𒅒 - Canal Oficial`, mediaType: 2, sourceUrl: canales, thumbnail: imagen14}}}
+//global.fakeChannel = {contextInfo:{externalAdReply:{ showAdAttribution: false, title: namechannel, body: vs, mediaType: 1, sourceUrl: nn12345, thumbnail: img1} }}
+
+
+
+
 const estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Super Bot WhatsApp', orderTitle: 'Bang', thumbnail: gataMenu, sellerJid: '0@s.whatsapp.net' }}}
 const estiloaudio = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { "audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "99569", "ptt": "true"   
 }}} 
@@ -116,3 +131,4 @@ let id = canalIdGB[randomIndex]
 let nombre = canalNombreGB[randomIndex]
 return { id, nombre }
 } 	
+
