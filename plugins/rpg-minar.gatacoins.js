@@ -1,4 +1,4 @@
-let handler = async (m, { conn, isPrems}) => { //lastmiming
+/*let handler = async (m, { conn, isPrems}) => { //lastmiming
 let user = global.db.data.users[m.sender]
 let premium = user.premium  
 let minar = `${pickRandom(['Que pro 😎 has minado',
@@ -53,7 +53,7 @@ await conn.sendFile(m.chat, pp, 'katashi.jpg', gat, fkontak)
 ['𝙈𝙞𝙣𝙖𝙧 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨 💎', `.minar3`],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', `.menu`]
 ], m,)*/
-user.lastcoins = new Date * 1  
+/*user.lastcoins = new Date * 1  
 }
 handler.help = ['minar2']
 handler.tags = ['gata']
@@ -76,4 +76,4 @@ return minutes + " m y " + seconds + " s "
 }  
 
 function pickRandom(list) {
-return list[Math.floor(Math.random() * list.length)]}
+return list[Math.floor(Math.random() * list.length)]}*/
