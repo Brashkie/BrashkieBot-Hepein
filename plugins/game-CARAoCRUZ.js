@@ -1,6 +1,6 @@
  //BY: VIRUZZ-OFC
 
-let handler = async (m, { conn, text, command, usedPrefix, args }) => {
+/*let handler = async (m, { conn, text, command, usedPrefix, args }) => {
 let pp = 'https://media.istockphoto.com/id/460171067/es/foto/sacudir-el-bot%C3%B3n.jpg?s=612x612&w=0&k=20&c=TsX1krTyz8oyRNhpcbri4dguh3WyAZwYOwMu2T68S2A='
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
 // 60000 = 1 minuto // 30000 = 30 segundos // 15000 = 15 segundos // 10000 = 10 segundos
@@ -120,4 +120,4 @@ handler.command = /^(lanzar)$/i
 export default handler
 
 function pickRandom(list) {
-return list[Math.floor(Math.random() * list.length)]}
+return list[Math.floor(Math.random() * list.length)]}*/
