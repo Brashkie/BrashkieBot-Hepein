@@ -14,6 +14,7 @@ import path from 'path'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, participants, groupMetadata, text, command }) => {
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let toUser = `${m.sender.split("@")[0]}`
+    let vn1='./media/manden.mp3'
     let menu = `Hola @${toUser}
 ◢◤𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗺𝗲𝗻𝘂 𝗱𝗲 𝘀𝗶𝗺𝗯𝗼𝗹𝗼𝘀◢◤
 
@@ -55,7 +56,11 @@ ${usedPrefix}simbmoney
     `
     const vi = ['https://telegra.ph/file/b06893bd99f508e13f9ba.mp4']
     
+    /*conn.sendButton(m.chat,['🔄 𝙎𝙞𝙜𝙪𝙞𝙚𝙣𝙩𝙚 | 𝙉𝙚𝙭𝙩', `/menu`], null, null, m)*/
     await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, who] })
+    /*await await await conn.sendFile(m.chat, vn1, 'error.mp3', null, m, true, { 
+        type: 'audioMessage', 
+        ptt: true });*/
 }
 
 handler.command = handler.help = ['msimbols']
