@@ -1,4 +1,4 @@
-/*let handler = m => m
+let handler = m => m
 handler.before = async function (m) {
 let pp = 'https://telegra.ph/file/c7924bf0e0d839290cc51.jpg'
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
@@ -81,4 +81,3 @@ handler.exp = 0
 export default handler
 function random(arr) {
 return arr[Math.floor(Math.random() * arr.length)]}
-*/
