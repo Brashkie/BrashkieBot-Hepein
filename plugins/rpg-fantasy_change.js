@@ -47,7 +47,7 @@ title: `🌟 FANTASÍA RPG`,
 body: `😼 Personajes de: » ${conn.getName(userId)}`,
 mediaType: 1,
 sourceUrl: accountsgb,
-thumbnailUrl: 'https://i.imgur.com/vIH5SKp.jpg'
+thumbnailUrl: 'https://i.imgur.com/xGBCZsJ.jpg'
 }}}, { mentions: userId })
 return
 }
