@@ -1,6 +1,6 @@
 //Script hecho por Edder ミ⁠●⁠﹏⁠☉⁠ミ
 
-let handler = async (m, { conn,groupMetadata, participants, usedPrefix, command, isBotAdmin,isAdmin,isSuperAdmin }) => {
+/*let handler = async (m, { conn,groupMetadata, participants, usedPrefix, command, isBotAdmin,isAdmin,isSuperAdmin }) => {
 let bot = global.db.data.settings[conn.user.jid] || {}
 if (!bot.restrict) return m.reply(`${lenguajeGB['smsAvisoAG']()} ${lenguajeGB['smsSoloOwner']()}`) 
 if (!isBotAdmin) return m.reply(`${lenguajeGB['smsAvisoAG']()} ${lenguajeGB['smsAllAdmin']()}`)
@@ -24,5 +24,5 @@ handler.botAdmin = true
 export default handler
 
 const delay = time => new Promise(res => setTimeout(res, time))
-
+*/
 
