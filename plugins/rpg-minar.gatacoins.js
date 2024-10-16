@@ -17,7 +17,7 @@ let minar = `${pickRandom(['Que pro 😎 has minado',
 '👾 Gracias a que has minado tus ingresos suman',
 'Felicidades!! Ahora tienes','⛏️⛏️⛏️ Obtienes'])}`
 
-let pp = 'https://telegra.ph/file/65f5ccdcf2a879731894d.jpg'
+let pp = 'https://telegra.ph/file/34ca2bf7d84668a682a93.jpg'
 
 let aqua = `${pickRandom([0, 2, 3, 1, 5])}` * 1
 let aquapremium = `${pickRandom([2, 4, 6, 7, 5, 9])}` * 1
