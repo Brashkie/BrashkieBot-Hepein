@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-<img src="https://telegra.ph/file/71d6fa4fbfb9dab8a4b8d.jpg" alt="HepeinBot" width="900"/>
+<img src="https://i.imgur.com/xGBCZsJ.jpg" alt="HepeinBot" width="900"/>
 </p>
 
 
