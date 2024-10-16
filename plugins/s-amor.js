@@ -1,4 +1,4 @@
-import { sticker } from '../lib/sticker.js'
+/*import { sticker } from '../lib/sticker.js'
 let handler = async(m, { conn }) => {
 if (db.data.chats[m.chat].stickers) {
 
@@ -44,4 +44,4 @@ const s = [
 'https://media2.giphy.com/media/5bdhq6YF0szPaCEk9Y/giphy.gif?cid=ecf05e47izw67d3ltxeaaij9htevgdp0x4jg3xujxs3bptnk&rid=giphy.gif&ct=g',
 'https://media3.giphy.com/media/l3vR8xgaVJIDE8ec0/giphy.gif?cid=ecf05e47izw67d3ltxeaaij9htevgdp0x4jg3xujxs3bptnk&rid=giphy.gif&ct=g',
 'https://media4.giphy.com/media/10tTOmhZzHMoW4/giphy.gif?cid=ecf05e47zgffwvy8mvp1j71e71c780oz9uzgru9atqecf91q&rid=giphy.gif&ct=g'
-];  
+];  */
