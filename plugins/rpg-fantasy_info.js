@@ -130,7 +130,7 @@ title: `🌟 FANTASÍA RPG`,
 body: `😼 Usuario: » ${conn.getName(m.sender)}`,
 mediaType: 1,
 sourceUrl: accountsgb,
-thumbnailUrl: 'https://i.imgur.com/vIH5SKp.jpg'
+thumbnailUrl: 'https://i.imgur.com/fxeWwBv.jpg'
 }}})
 }
 
