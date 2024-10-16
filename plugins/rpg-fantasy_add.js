@@ -26,7 +26,7 @@ _Este comando te permite agregar nuevos personajes a la base de datos._
 > _Para obtener el enlace a la imagen puedes usar el coamndo *${usedPrefix}tourl* respondiendo a la imgen, también puedes mejorar la calidad de imagen respondiendo a la imagen *${usedPrefix}hd*_
 
 *Ejemplo:*
-\`${usedPrefix + command}\` https://telegra.ph/file/abcd1234.jpg + Son Goku + Dragon Ball + Son Goku es el protagonista principal de la franquicia Dragon Ball. Es un Saiyan enviado a la Tierra cuando era un bebé con la misión de conquistar el planeta, pero debido a un golpe en la cabeza pierde la memoria y se convierte en un héroe. + Épico + Aventura / Acción
+\`${usedPrefix + command}\` https://telegra.ph/file/13739fe030f0a5c8cdd9c.jpg + Son Goku + Dragon Ball + Son Goku es el protagonista principal de la franquicia Dragon Ball. Es un Saiyan enviado a la Tierra cuando era un bebé con la misión de conquistar el planeta, pero debido a un golpe en la cabeza pierde la memoria y se convierte en un héroe. + Épico + Aventura / Acción
 `.trim()
 if (!text) return conn.reply(m.chat, helpMessage, m)
   
@@ -156,3 +156,4 @@ return codigo
 }
 handler.command = /^(fantasyadd|fyadd|fyagregar)$/i
 export default handler
+
