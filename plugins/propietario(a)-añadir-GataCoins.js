@@ -1,4 +1,4 @@
-let MessageType = (await import(global.baileys)).default
+/*let MessageType = (await import(global.baileys)).default
 let pajak = 0
 let handler = async (m, { conn, text }) => {
 let who
@@ -21,9 +21,9 @@ m.reply(`╭━━━[ 𝘽𝙍𝘼𝙎𝘾𝙊𝙄𝙉𝙎 ]━━━⬣\n┃\n
 ['💗 𝙈𝙚𝙣𝙪 𝘼𝙫𝙚𝙣𝙩𝙪𝙧𝙖 | 𝙍𝙋𝙂 💗', '.rpgmenu'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']], m)
 }*/
-handler.help = ['addgb <@user>']
+/*handler.help = ['addgb <@user>']
 handler.tags = ['gatacoins']
 handler.command = ['añadirkatacoins', 'añadirkata', 'añadircoins', 'darkatacoins', 'darkata', 'darcoins'] 
 handler.group = true
 handler.rowner = true
-export default handler
+export default handler*/
