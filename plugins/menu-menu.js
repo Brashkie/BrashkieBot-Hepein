@@ -82,9 +82,9 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `╭═══〘𖣐 _Hepein Bot_ 𖣐〙═══⊷❍
+let menu = `╭═══《𖣐 _Hepein Bot_ 𖣐》═══⊷❍
 ┃☭╭──────────────
-┃☭│ 〘 𖣐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 𖣐 〙
+┃☭│ 《 𖣐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 𖣐 》
 ┃☭│ 
 ┃☭│ _Brashkie Dios _
 ┃☭│ _ɪᴢɪ_ 𝅙
@@ -146,7 +146,7 @@ ${readMore}
 ║ _${usedPrefix}velocidad | ping_      
 ║ _términos y condiciones_
 ║ _Bot_
-╚═════════════════════════■■■■
+╚═════════════════■■■■
 
 
  ══《☬ _SUB BOT HEPEIN_ ☬》══
@@ -154,7 +154,7 @@ ${readMore}
  ⮑${usedPrefix}serbot | jadibot
  ⮑${usedPrefix}bots | listjadibots
  ⮑${usedPrefix}detener | stop
-◈═════════════◈═════════════◈
+◈══════════◈═════════◈
 
 
  ══《☬ _REPORTES_ ☬》══
@@ -163,7 +163,7 @@ ${readMore}
    Haga un reporte
    en caso de una falla
    en algun comando
-◈════════════◈════════════◈
+◈═══════◈═══════◈
 
 
  ══《☬ _User Premium_ ☬》══
@@ -171,7 +171,7 @@ ${readMore}
  ⮑${usedPrefix}listapremium | listprem
  ⮑${usedPrefix}pase premium
  ⮑${usedPrefix}pass premium
-◈═════════════◈═════════════◈
+◈═════════◈════════◈
 
 
  ══《☬ _ENTRETENIMIENTO_ ☬》═══
@@ -191,6 +191,13 @@ ${readMore}
  ⮑${usedPrefix}tophacker
  ⮑${usedPrefix}topvirgen
  ⮑${usedPrefix}topinfiel
+ ⮑${usedPrefix}topodio
+ ⮑${usedPrefix}topamor
+ ⮑${usedPrefix}topvago
+ ⮑${usedPrefix}topchambeo
+ ⮑${usedPrefix}topnegro
+ ⮑${usedPrefix}topculon
+ ⮑${usedPrefix}topdrogo
  ⮑${usedPrefix}topotakus
  ⮑${usedPrefix}topcallados
  ⮑${usedPrefix}tophacker
@@ -228,7 +235,7 @@ ${readMore}
  ⮑${usedPrefix}juegos
  ⮑${usedPrefix}edufrase
  ⮑${usedPrefix}animes
-◈═════════════◈═════════════◈
+◈══════════◈═════════◈
 
  ══《☬ *IA HEPEIN* ☬》══
 > puedes buscar lo que deseas usando
@@ -602,51 +609,165 @@ ${readMore}
 
 
  ══《☬ ANIME ☬》═══
-> *Comandos de reacciones de anime*
-  ⮑${usedPrefix}pat1 *@tag*
-    ➠ acariciar
-  ⮑${usedPrefix}slap1 *@tag*
-    ➠ bofatear
-  ⮑${usedPrefix}punch1 *@tag*
-    ➠ golpear
-  ⮑${usedPrefix}kiss1 *@tag*
-    ➠ besar
-  ⮑${usedPrefix}food1
-    ➠ comer
-  ⮑${usedPrefix}bite1 *@tag*
-    ➠ morder
-  ⮑${usedPrefix}poke1 *@tag*
-    ➠ tocar
-  ⮑${usedPrefix}hug1 *@tag*
-    ➠ abrazar
-  ⮑${usedPrefix}feed1 *@tag*
-    ➠ alimetar
-  ⮑${usedPrefix}kill1 *@tag*
-    ➠ matar
-  ⮑${usedPrefix}sleep1
-    ➠ dormir
-  ⮑${usedPrefix}happy1
-    ➠ alegrar
-  ⮑${usedPrefix}sad1
-    ➠ llorar
-  ⮑${usedPrefix}angry1
-    ➠ enojar
-  ⮑${usedPrefix}bath1
-    ➠ bañar
-  ⮑${usedPrefix}code
-    ➠ programar
-◈════════◈════════◈
+*Comandos de acciones de anime*
+(つ▀¯▀)つ━━━━━━━━━
+𒆜Acaricia a alguien del servidor.
+> ${usedPrefix}pat1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Abofetea a alguien que no te gusta... ¡Usa toda tu fuerza!
+> ${usedPrefix}slap1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Golpea a alguien. D:
+> ${usedPrefix}punch1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Besa a alguien.
+> ${usedPrefix}kiss1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Muerde al usuario mencionado. O deja que yo te muerda. owo
+> ${usedPrefix}bite1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Fastidia a alguien del servidor.
+> ${usedPrefix}poke1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜¿Un abracito? c:
+Con este comando puedes abrazar a alguien.
+> ${usedPrefix}hug1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Dale de comer a un usuario, o deja que yo te dé de comer. n.n
+> ${usedPrefix}feed1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Si odias deberias .... ¡MATAR >:v!
+> ${usedPrefix}kill1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Moja a alguien. UwU
+> ${usedPrefix}splash1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Dile a un usuario Oniichan 👉👈
+> ${usedPrefix}onichan1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Cura o revive a un ser querido uwu
+> ${usedPrefix}heal1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Expresa que algo te causó gracia o te burlas de alguien.
+> ${usedPrefix}laugh1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Patea a alguien.
+> ${usedPrefix}kickbutt1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Besa a alguien en la mejilla.
+> ${usedPrefix}kisscheeks1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Pellizca algunas mejillas.
+> ${usedPrefix}cheeks1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Aplaude de algo o aplaude a alguien.
+> ${usedPrefix}claps1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Disparale a alguien. D:
+> ${usedPrefix}bang1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Lame a alguien.
+> ${usedPrefix}lick1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Toma mi mano o la de un usuario.
+> ${usedPrefix}handholding1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Despídete en general o de alguien específico.
+> ${usedPrefix}bye1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Baila con alguien o conmigo
+> ${usedPrefix}dance1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Saluda a un miembro
+> ${usedPrefix}greet1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Patea brutalmente a un miembro
+> ${usedPrefix}kick1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+*Comandos de reacciones de anime*
+(つ▀¯▀)つ━━━━━━━━━
+𒆜Come algo.
+> ${usedPrefix}food1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Te vas ir a mimir
+> ${usedPrefix}sleep1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+***-------------------******
+𒆜Demuestra tu felicidad con una sonrisa.
+> ${usedPrefix}happy1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Te pones trieste. u.u
+> ${usedPrefix}sad1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Mostrar tu ira o enojo de algo
+> ${usedPrefix}angry1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Dile que te estas bañando uff
+> ${usedPrefix}bath1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜¿Estas progrmando?
+> ${usedPrefix}code
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Saludar a los miembros
+> ${usedPrefix}greet1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜¿Por qué estás llorando?
+> ${usedPrefix}cry1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜¯\_(ツ)_/¯
+> ${usedPrefix}shrug1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Risa malvada o diabolica
+> ${usedPrefix}evilaugh1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Mover la cabeza :v
+> ${usedPrefix}movehead1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Golpeate la cabeza.
+> ${usedPrefix}banghead1
+•═══◇◇•◇◇∘◇◇•◇◇═══•
 
 
  ══《☬ KPOP & BTS ☬》═══
-> *Comandos de reacciones de BTS&KPOP*
-  ⮑${usedPrefix}kiss2 *@tag*
-    ➠ besar
-  ⮑${usedPrefix}dance2
-    ➠ bailar
-  ⮑${usedPrefix}hug2 *@tag*
-    ➠ abrazar
-◈═══════════◈═══════════◈
+*Comandos de acciones de BTS&KPOP*
+(つ▀¯▀)つ━━━━━━━━━
+𒆜Besar a alguien
+> ${usedPrefix}kiss2 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Abrazar a alguien
+> ${usedPrefix}hug2 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+*Comandos de reacciones de BTS&KPOP*
+𒆜Bailar
+> ${usedPrefix}dance2
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Llorar por algo T_T
+> ${usedPrefix}cry2
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Bailar
+> ${usedPrefix}dance2
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Llorar por algo T_T
+> ${usedPrefix}cry2
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+
+
+ ══《☬ +18 ☬》═══
+*Comandos de acciones de anime +18*
+(つ▀¯▀)つ━━━━━━━━━
+𒆜Dale una nalgada a alguien. -_-
+> ${usedPrefix}spank1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Agarra las tetas a un miembro :v
+> ${usedPrefix}grabtits1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜¿A quien quieres follar? ._.
+> ${usedPrefix}fuck1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+𒆜Follar en su ano
+> ${usedPrefix}anal1 *@tag*
+•═══◇◇•◇◇∘◇◇•◇◇═══•
+
 
 
  ══《☬ PARA PROPIETARIOS ☬》══
@@ -691,7 +812,7 @@ await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() 
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}}
 
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m|\?)$/i
+handler.command = /^(menuall|\?)$/i
 //handler.register = true
 export default handler
 
@@ -701,4 +822,4 @@ function clockString(ms) {
 let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
 let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
 let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}  
+return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
