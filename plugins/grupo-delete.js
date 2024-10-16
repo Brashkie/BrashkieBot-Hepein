@@ -1,4 +1,4 @@
-let handler = async (m, { conn, usedPrefix, command }) => {
+/*let handler = async (m, { conn, usedPrefix, command }) => {
 	
 if (!m.quoted) return conn.reply(m.chat, `> 𖣐 Indica el mensaje que quieres eliminar.`, m, rcanal)
 try {
@@ -16,4 +16,4 @@ handler.group = false
 handler.admin = true
 handler.botAdmin = true
 
-export default handler
+export default handler*/
