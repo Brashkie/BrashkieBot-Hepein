@@ -1,6 +1,6 @@
 //Créditos a Katashi Fukushima
 
-import fs from 'fs'
+/*import fs from 'fs'
 
 let timeout = 60000
 let poin = 500
@@ -39,3 +39,4 @@ handler.tags = ['game']
 handler.command = /^(palabra|word|ordenar|order)$/i
 
 export default handler
+*/
